@@ -16,7 +16,7 @@
 	--color-backgorund:rgba(94, 94, 94, 1);
 }
 body{
-	background-image: linear-gradient(to right, rgba(52, 40, 24, 0.94) 2%, rgba(59, 59, 59, 1) 7%, rgba(51, 51, 51, 1) 50%, rgba(59, 59, 59, 1) 90%, rgba(52, 40, 24, 0.94) 98%) ;
+	background-image: linear-gradient(to right, rgba(80, 79, 78, 1) 2%, rgba(59, 59, 59, 1) 7%, rgba(51, 51, 51, 1) 50%, rgba(59, 59, 59, 1) 90%, rgba(80, 79, 78, 1) 98%) ;
 } 
 /*Grillas*/
 .sect-1{
