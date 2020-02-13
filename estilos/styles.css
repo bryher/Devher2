@@ -179,7 +179,9 @@ body{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	position: fixed;
-	border-bottom:1px solid rgba(92, 92, 92, 0.8);
+}
+.head:hover{
+	box-shadow: -5px -2px 10px #3d87ff;
 }
 .items{
 	font-size: 1.5em;
@@ -225,6 +227,7 @@ a[class|="icon"]:hover{
  	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75) , rgba(0, 0, 0, 1) 25%);
  	right: -300px;
  	transition: all 800ms linear;
+	box-shadow: 2px -2px 5px #3d87ff;
 }
 #menu ul{
 	margin-top: 2em;
