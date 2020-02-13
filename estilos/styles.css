@@ -40,11 +40,12 @@ body{
 .section-blog-princ{
 	grid-column: 2/6;
 }
-.icon-menu{
+#menico{
 		position: absolute;
   	right: 330px;
   	top: 15px;
   	cursor: pointer;
+		transition-duration: 3s;
 }
 .icon-blog{
 	grid-column: 7/9;
@@ -97,17 +98,14 @@ body{
 	.host div{
 		grid-column: 2/12;
 	}
-	#menu .icon-menu {
-    top: 8px;
+	#menico {
     right: 305px;
-		color: rgba(0, 119, 184, 0.75);
-		height: 45px;
 	}
 	div.item-curso-colum1, div.item-curso-colum2{
 		grid-column: 2/12;
 		margin: 10px;
 	}
-	.head a[class|="icon"] i{
+	.head a[class|="icon"] i, div #menico i{
 	font-size: 45px;
 	}
 	.head .logo a img{
@@ -171,6 +169,9 @@ body{
 	#menu .icon-login2, #menu #blog2{
 		display: block;
 	}
+	#menu .icon-menu{
+		left: 0;
+	}
 }
 /*Barra de Navegación*/
 .head {
@@ -198,7 +199,13 @@ body{
 	margin-top: 12px;
 	font-size: 1.3em;
 }
-
+.icon i, .icon-login2 i{
+	padding-left: 123px;
+}
+.responsive img{
+display: block;
+margin: auto;
+}
 .items a{
  	color: #a5411d;
 }
@@ -209,15 +216,14 @@ body{
 	margin-bottom: 6px;
 	margin-left: 40px;
 }
-a[class|="icon"]{
+a[class|="icon"], #menico{
 	color:rgba(0, 119, 184, 1);
 	margin: auto;
-	text-align: center;
 }
-a[class|="icon"] i{
+a[class|="icon"] i, #menico i{
 	font-size: 55px;
 }
-a[class|="icon"]:hover{
+a[class|="icon"]:hover, #menico:hover{
 	color:rgba(0, 149, 230, 1);
 }
 #menu{
@@ -227,10 +233,13 @@ a[class|="icon"]:hover{
  	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75) , rgba(0, 0, 0, 1) 25%);
  	right: -300px;
  	transition: all 800ms linear;
-	box-shadow: 2px -2px 5px #3d87ff;
 }
 #menu ul{
 	margin-top: 2em;
+}
+#menico.active1{
+	left: 10px;
+	top: 15px;
 }
 #menu.active{
 	right: 0;
@@ -241,7 +250,6 @@ a[class|="icon"]:hover{
 .items a:hover{
 	color: #dd673c;
 }
-
 /*Seccion principal del blog*/
 .blog{
 	padding: 20px 30px;
@@ -264,7 +272,6 @@ a[class|="icon"]:hover{
 	color: rgba(127, 212, 104, 1);
 	display: block;
 	margin: auto;
-
 }
 .boton2:hover, .boton3:hover{
  background: #3fc700;
