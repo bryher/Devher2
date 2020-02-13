@@ -183,6 +183,7 @@ body{
 a[class|="icon"]{
 	color:rgba(0, 119, 184, 1);
 	margin: auto;
+	text-align: center;
 }
 a[class|="icon"] i{
 	font-size: 60px;
