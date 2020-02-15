@@ -91,7 +91,7 @@ body{
 	}
 	div #menu-share{
 		display: block;
-		bottom: -70px;
+		bottom: -80px;
 	}
 	.head .social-network{
 		position: absolute;
@@ -161,7 +161,7 @@ body{
 	}
 	div #menu-share{
 		display: block;
-                bottom: -40px;
+                bottom: -55px;
 	}
 	.social-network ul{
 		display: none;
