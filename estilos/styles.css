@@ -250,6 +250,7 @@ body{
 	cursor: pointer;
 	display: none;
         transition-duration: 3s;
+        font-zise: 50px;
         
 }
 .items{
