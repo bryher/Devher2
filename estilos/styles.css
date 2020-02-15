@@ -88,10 +88,12 @@ body{
 	}
 	.social-network ul{
 		display: none;
+                transition-duration: 3s;
 	}
 	div #menu-share{
 		display: block;
 		bottom: -20px;
+                transition-duration: 3s;
 	}
 	.head .social-network{
 		position: absolute;
@@ -131,9 +133,11 @@ body{
 	}
 	div #menu-share{
 		display: none;
+                transition-duration: 3s;
 	}
 	.social-network ul{
 		display: block;
+                transition-duration: 3s;
 	}
 }
 @media (max-width: 550px){
@@ -161,9 +165,11 @@ body{
 	}
 	div #menu-share{
 		display: block;
+                transition-duration: 3s;
 	}
 	.social-network ul{
 		display: none;
+                transition-duration: 3s;
 	}
 }
 @media (max-width: 550px){
