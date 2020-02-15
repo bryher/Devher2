@@ -296,7 +296,7 @@ a[class|="icon"]:hover, #menico:hover{
 	position: fixed;
  	width: 350px;
  	height: 100%;
- 	background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 25% , rgba(0, 0, 0, 0.75));
+ 	background: rgba(0, 0, 0, 0.7);
  	right: -350px;
  	transition: all 400ms ease;
 }
