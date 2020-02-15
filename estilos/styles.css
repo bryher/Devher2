@@ -40,6 +40,7 @@ body{
 .section-blog-princ{
 	grid-column: 2/6;
 }
+
 #menico{
 		position: absolute;
   	right: 330px;
@@ -85,6 +86,17 @@ body{
 	.icon-login{
 		grid-column: 3/7
 	}
+	.social-network ul{
+		display: none;
+	}
+	div #menu-share{
+		display: block;
+		bottom: -30px;
+	}
+	.head .social-network{
+		position: absolute;
+		top: 15vh;
+	}
 }
 /*@media only screen and (max-width: 600px) and (min-width: 400px)  {...}*/
 @media (max-width: 640px){
@@ -117,6 +129,12 @@ body{
   body .seccion-1{
 	padding-top: 62px;
 	}
+	div #menu-share{
+		display: none;
+	}
+	.social-network ul{
+		display: block;
+	}
 }
 @media (max-width: 550px){
 	.sect-1, .sect-2{
@@ -139,6 +157,12 @@ body{
 		margin-left: 15px;
 	}
 	.text-login{
+		display: none;
+	}
+	div #menu-share{
+		display: block;
+	}
+	.social-network ul{
 		display: none;
 	}
 }
@@ -182,7 +206,49 @@ body{
 	position: fixed;
 }
 .head:hover{
-	box-shadow: -5px -2px 10px #3d87ff;
+	box-shadow: 0 1px 2px rgba(255,255,255,0.3);
+}
+.social-network{
+	position: absolute;
+	top: 30vh;
+}
+.social img{
+	width: 20px;
+	padding: 10px 0;
+	line-height: calc(60px - 6px)
+}
+.social {
+	position: relative;
+	background: #f1f1f1;
+	display: block;
+	width: 60px;
+	height: 60px;
+	box-shadow: 0 4px 3px rgba(255,255,255,0.3);
+	border-radius: 50%;
+	text-align: center;
+	margin: 10px;
+	transition: .5s;
+	padding-top: 8px;
+	background-image: linear-gradient(0deg, #ddd, #fff);
+
+}
+.social div{
+	background-image: linear-gradient(0deg, #fff, #ddd);
+	border-radius: 50%;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+}
+.social:hover{
+	box-shadow: 0 13px 10px rgba(255,255,255,0.3);
+}
+#menu-share{
+	position: absolute;
+	bottom: -380px;
+	left: 30px;
+	cursor: pointer;
+	display: none;
+	transition: all 3s ease;
 }
 .items{
 	font-size: 1.5em;
@@ -230,7 +296,7 @@ a[class|="icon"]:hover, #menico:hover{
 	position: fixed;
  	width: 300px;
  	height: 100%;
- 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75) , rgba(0, 0, 0, 1) 25%);
+ 	background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 25% , rgba(0, 0, 0, 0.75));
  	right: -300px;
  	transition: all 400ms ease;
 }
@@ -243,6 +309,9 @@ a[class|="icon"]:hover, #menico:hover{
 }
 #menu.active{
 	right: 0;
+}
+#social-toggle.active3{
+	display: block;
 }
 .items:hover{
 	border-right: 6px solid #dd673c;
