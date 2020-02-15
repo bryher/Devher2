@@ -161,7 +161,7 @@ body{
 	}
 	div #menu-share{
 		display: block;
-                bottom: -50px;
+                bottom: -40px;
 	}
 	.social-network ul{
 		display: none;
@@ -246,7 +246,7 @@ body{
 #menu-share{
 	position: absolute;
 	bottom: -380px;
-	left: 29px;
+	left: 20px;
 	cursor: pointer;
 	display: none;
         transition-duration: 3s;
