@@ -245,7 +245,7 @@ body{
 #menu-share{
 	position: absolute;
 	bottom: -380px;
-	left: 15px;
+	left: 30px;
 	cursor: pointer;
 	display: none;
 	transition: all 3s ease;
