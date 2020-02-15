@@ -118,10 +118,10 @@ body{
 		margin: 10px;
 	}
 	.head a[class|="icon"] i, div #menico i{
-	font-size: 45px;
+	font-size: 37px;
 	}
 	.head .logo a img{
-	width: 45px;
+	width: 37px;
 	}
 	.head .logo a img{
 		margin-left: 25px;
@@ -266,7 +266,7 @@ body{
 .text-login{
 	float: right;
 	margin-top: 12px;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 .icon i, .icon-login2 i{
 	padding-left: 150px;
@@ -280,7 +280,7 @@ margin: auto;
 }
 
 .logo a img{
-	width: 60px;
+	width: 50px;
 	margin-top:6px;
 	margin-bottom: 6px;
 	margin-left: 40px;
@@ -290,7 +290,7 @@ a[class|="icon"], #menico{
 	margin: auto;
 }
 a[class|="icon"] i, #menico i{
-	font-size: 55px;
+	font-size: 50px;
 }
 a[class|="icon"]:hover, #menico:hover{
 	color:rgba(0, 149, 230, 1);
