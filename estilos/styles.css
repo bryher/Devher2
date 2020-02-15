@@ -111,6 +111,7 @@ body{
 		grid-column: 2/12;
 	}
 	#menico {
+                top:10px;
     right: 355px;
 	}
 	div.item-curso-colum1, div.item-curso-colum2{
