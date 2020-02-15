@@ -297,7 +297,7 @@ a[class|="icon"]:hover, #menico:hover{
  	width: 350px;
  	height: 100%;
  	background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 25% , rgba(0, 0, 0, 0.75));
- 	right: -300px;
+ 	right: -350px;
  	transition: all 400ms ease;
 }
 #menu ul{
