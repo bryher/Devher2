@@ -313,6 +313,7 @@ a[class|="icon"]:hover, #menico:hover{
 }
 #social-toggle.active3{
 	display: block;
+        transition: all 3s ease;
 }
 .items:hover{
 	border-right: 6px solid #dd673c;
