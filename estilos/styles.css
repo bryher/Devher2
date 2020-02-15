@@ -91,7 +91,7 @@ body{
 	}
 	div #menu-share{
 		display: block;
-		bottom: -30px;
+		bottom: -15px;
 	}
 	.head .social-network{
 		position: absolute;
@@ -245,10 +245,11 @@ body{
 #menu-share{
 	position: absolute;
 	bottom: -380px;
-	left: 30px;
+	left: 15px;
 	cursor: pointer;
 	display: none;
 	transition: all 3s ease;
+        
 }
 .items{
 	font-size: 1.5em;
