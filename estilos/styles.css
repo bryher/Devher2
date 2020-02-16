@@ -279,9 +279,6 @@ body{
 display: block;
 margin: auto;
 }
-.items a{
- 	color: white;
-}
 
 .logo a img{
 	width: 50px;
@@ -477,7 +474,6 @@ img{
 	padding: 16px 8px;
 	border-radius: 20px;
 	text-align: center;
-	color: var(--color-a);
 	letter-spacing: 7px;
 	text-transform: uppercase;
 	position: absolute;
