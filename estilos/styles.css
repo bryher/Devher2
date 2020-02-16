@@ -325,7 +325,7 @@ a[class|="icon"]:hover, #menico:hover{
 }
 #social-toggle.active3{
 	display: block;
-  transition: all 3s ease;
+  transition-duration: 5s;
 }
 .items:hover{
 	border-right: 6px solid #dd673c;
@@ -360,7 +360,7 @@ a[class|="icon"]:hover, #menico:hover{
  background: #3fc700;
  box-shadow: 0 0 10px #3fc700, 0 0 40px #3fc700, 0 0 80px #3fc700;
  color: black;
- transition-duration: 0.6s;
+ transition-duration: 5s;
 }
 a:hover{
 	color:var(--color-a-hover);
@@ -493,7 +493,7 @@ img{
 	background: #2196f3;
 	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 	color: black;
-	transition-duration: 3s;
+	transition-duration: 5s;
 }
 .boton img{
 	width: 30px;
