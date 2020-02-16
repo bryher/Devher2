@@ -346,7 +346,7 @@ a[class|="icon"]:hover, #menico:hover{
 	padding: 16px 8px;
 	border-radius: 20px;
 	text-align: center;
-	color: rgba(127, 212, 104, 1);
+	color: var(--color-a);
 	display: block;
 	margin: auto;
 }
@@ -477,7 +477,7 @@ img{
 	padding: 16px 8px;
 	border-radius: 20px;
 	text-align: center;
-	color: rgba(0, 119, 184, 1);
+	color: var(--color-a);
 	letter-spacing: 7px;
 	text-transform: uppercase;
 	position: absolute;
