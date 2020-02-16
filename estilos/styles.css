@@ -301,6 +301,7 @@ a[class|="icon"]:hover, #menico:hover{
  	width: 350px;
  	height: 100%;
  	background: rgba(0, 0, 0, 0.7);
+        backdrop-filter:blur(20px) brightness(200%);
  	right: -350px;
  	transition: all 400ms ease;
 }
