@@ -87,7 +87,7 @@ body{
 	}
 	.social-network ul{
 		display: none;
-                transition-duration: 3s;
+    transition-duration: 3s;
 	}
 	div #menu-share{
 		display: block;
@@ -96,7 +96,7 @@ body{
 	}
 	.head .social-network{
 		position: absolute;
-		top: 13vh;
+		top: 65px;
 	}
 }
 /*@media only screen and (max-width: 600px) and (min-width: 400px)  {...}*/
@@ -138,7 +138,7 @@ body{
 		display: block;
 	}
 	.head .social-network{
-		left: 7px;
+		left: 5px;
 	}
 }
 @media (max-width: 550px){
@@ -219,7 +219,7 @@ body{
 }
 .social-network{
 	position: absolute;
-	top: 20vh;
+	top: 150px;
 	left: 32px;
 }
 .social img{
