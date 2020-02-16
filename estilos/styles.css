@@ -45,7 +45,7 @@ body{
 		position: absolute;
   	right: 380px;
   	top: 15px;
-  	cursor: pointer;		
+  	cursor: pointer;
 }
 .icon-blog{
 	grid-column: 7/9;
@@ -91,11 +91,12 @@ body{
 	}
 	div #menu-share{
 		display: block;
-		bottom: -89px;
+		bottom: -45px;
+		left: 15px;
 	}
 	.head .social-network{
 		position: absolute;
-		top: 7vh;
+		top: 13vh;
 	}
 }
 /*@media only screen and (max-width: 600px) and (min-width: 400px)  {...}*/
@@ -111,7 +112,7 @@ body{
 		grid-column: 2/12;
 	}
 	#menico {
-                top:7px;
+    top:7px;
     right: 355px;
 	}
 	div.item-curso-colum1, div.item-curso-colum2{
@@ -135,6 +136,9 @@ body{
 	}
 	.social-network ul{
 		display: block;
+	}
+	.head .social-network{
+		left: 7px;
 	}
 }
 @media (max-width: 550px){
@@ -162,11 +166,13 @@ body{
 	}
 	div #menu-share{
 		display: block;
-                bottom: -55px;
-                left: 12px;
+    bottom: -43px;
 	}
 	.social-network ul{
 		display: none;
+	}
+	.head .social-network{
+		left: 0;
 	}
 }
 @media (max-width: 550px){
@@ -214,6 +220,7 @@ body{
 .social-network{
 	position: absolute;
 	top: 20vh;
+	left: 32px;
 }
 .social img{
 	width: 20px;
@@ -248,11 +255,11 @@ body{
 #menu-share{
 	position: absolute;
 	bottom: -380px;
-	left: 44px;
+	left: 20px;
 	cursor: pointer;
 	display: none;
-        transition-duration: 3s;
-        font-zise: 2rem;      
+  transition-duration: 5s;
+  font-size: 2rem;
 }
 #menu-share i{
   font-size: 40px;
@@ -301,7 +308,8 @@ a[class|="icon"]:hover, #menico:hover{
  	width: 350px;
  	height: 100%;
  	background: rgba(0, 0, 0, 0.6);
-        backdrop-filter:blur(5px) brightness(200%);
+  backdrop-filter:blur(5px) brightness(200%);
+	-webkit-backdrop-filter:blur(5px) brightness(200%);
  	right: -350px;
  	transition: all 400ms ease;
 }
@@ -317,7 +325,7 @@ a[class|="icon"]:hover, #menico:hover{
 }
 #social-toggle.active3{
 	display: block;
-        transition: all 3s ease;
+  transition: all 3s ease;
 }
 .items:hover{
 	border-right: 6px solid #dd673c;
