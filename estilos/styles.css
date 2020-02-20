@@ -314,7 +314,7 @@ a[class|="icon"]:hover, #menico:hover{
  	transition: all 400ms ease;
 }
 #menu ul{
-	margin-top: 2em;
+	margin-top: 15px;
 }
 #menico.active1{
 	left: 10px;
@@ -486,7 +486,7 @@ img{
 	letter-spacing: 7px;
 	text-transform: uppercase;
 	position: absolute;
-	top: 70vh;
+	top: 520px;
 	right: 30px;
 }
  .boton:hover{
