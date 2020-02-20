@@ -44,7 +44,7 @@ body{
 #menico{
 		position: absolute;
   	right: 380px;
-  	top: 15px;
+  	top: 10px;
   	cursor: pointer;
 }
 .icon-blog{
@@ -92,7 +92,7 @@ body{
 	div #menu-share{
 		display: block;
 		bottom: -55px;
-		left: 15px;
+		left: 20px;
 	}
 	.head .social-network{
 		position: absolute;
@@ -111,15 +111,15 @@ body{
 	.host div{
 		grid-column: 2/12;
 	}
-	#menico {
-    top:7px;
+	div #menico {
+    top: 2px;
     right: 355px;
 	}
 	div.item-curso-colum1, div.item-curso-colum2{
 		grid-column: 2/12;
 		margin: 10px;
 	}
-	.head a[class|="icon"] i, div #menico i{
+	.head a[class|="icon"] svg, div #menico i{
 	font-size: 37px;
 	}
 	.head .logo a img{
@@ -255,13 +255,13 @@ body{
 #menu-share{
 	position: absolute;
 	bottom: -380px;
-	left: 20px;
+	left: 25px;
 	cursor: pointer;
 	display: none;
   transition-duration: 5s;
   font-size: 2rem;
 }
-#menu-share i{
+#menu-share svg{
   font-size: 40px;
 }
 .items{
@@ -279,14 +279,12 @@ body{
 	margin-top: 12px;
 	font-size: 1.2em;
 }
-.icon svg, .icon-login2 svg{
-	margin-left: 141px;
+.icon , .icon-login2, .icon-login3{
+text-align: center;
 }
-.responsive img{
-display: block;
-margin: auto;
+.icon-login3{
+	display: block;
 }
-
 .logo a img{
 	width: 50px;
 	margin-top:6px;
@@ -297,7 +295,7 @@ a[class|="icon"], #menico{
 	color:rgba(0, 119, 184, 1);
 	margin: auto;
 }
-a[class|="icon"] i, #menico i{
+a[class|="icon"] svg, #menico svg{
 	font-size: 50px;
 }
 a[class|="icon"]:hover, #menico:hover{
