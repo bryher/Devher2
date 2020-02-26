@@ -456,13 +456,17 @@ h2{
 	color:var(--color-h2);
 	padding: 10px 20px 55px;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
 h3{
 	font-size: 2.5em;
 	color: #3db8e1;
+}
+h4{
+	font-size: 2rem;
+	color: #638c26;
 }
 p, a, li {
 	font-family: 'Open Sans', sans-serif;
@@ -483,7 +487,6 @@ img{
 	border-radius: 15px;
 	-webkit-filter: brightness(90%);
 	filter: brightness(90%);
-
  }
 
 .brillo{
