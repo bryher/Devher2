@@ -214,9 +214,7 @@ body{
 	grid-template-columns: repeat(12, 1fr);
 	position: fixed;
   z-index:1;
-}
-.head:hover{
-	box-shadow: 0 1px 2px rgba(255,255,255,0.3);
+	border-bottom: 1px solid #1c1c1c;
 }
 .social-network{
 	position: absolute;
@@ -336,7 +334,7 @@ a[class|="icon"]:hover, #menico:hover{
 .blog{
 	padding: 20px 50px;
 	margin-bottom: 5px;
-	background-color:#292e2d;
+	background-color:#292929;
 	color: white;
 	width: 100%;
 	height: 570px;
