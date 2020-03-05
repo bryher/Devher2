@@ -16,7 +16,7 @@
 	--color-backgorund:rgba(94, 94, 94, 1);
 }
 body{
-	background: rgba(15, 26, 46, 1);
+	background: #0d2a3f;
 }
 /*Grillas*/
 .sect-1{
@@ -188,10 +188,7 @@ body{
 		padding: 5px 15px;
 	}
 	.section-blog-princ p{
-		font-size: 1.1rem;
-	}
-	section h1{
-		font-size: 2.2em;
+		font-size: 1.3rem;
 	}
 	section .blog{
 		padding: 20px;
@@ -342,9 +339,9 @@ a[class|="icon"]:hover, #menico:hover{
 	background-color:#000;
 	color: white;
 	width: 100%;
-	height: 380px;
-	border-top-left-radius: 30px;
-	border-bottom-left-radius: 30px;
+	height: 600px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
 
 }
 
@@ -375,9 +372,9 @@ a:hover{
 .image-1-blog, .image-2-blog, .image-3-blog{
 	background-size:cover;
 	width: 100%;
-	height: 380px;
-	border-top-right-radius: 30px;
-	border-bottom-right-radius: 30px;
+	height: 600px;
+	border-top-right-radius: 35%;
+	border-bottom-right-radius: 35%;
 }
 .image-1-blog{
 	background-image:url(../img/portada1.webp);
@@ -446,33 +443,35 @@ p a:hover{
 
 /*fuentes aplicadas a titulos y subtitulos*/
 h1{
-	color: #b0366b;
+	color: #ec8386;
 	padding-bottom: 20px;
 	padding-top: 15px;
-	font-size: 2.8em;
+	font-size: 3.4em;
 }
 h2{
-	font-size: 2.5em;
+	font-size: 3.8em;
 	color:var(--color-h2);
-	padding: 10px 20px 55px;
+	padding: 10px 20px 40px;
 }
 h1, h2, h3, h4{
-	font-family: 'Roboto', sans-serif;
+ font-family: 'Ubuntu', sans-serif;
+ text-align: center;
 }
 h3{
-	font-size: 2.5em;
+	font-size: 3em;
 	color: #3db8e1;
 }
 h4{
 	font-size: 2rem;
 	color: #638c26;
+	text-align: left;
 }
 p, a, li {
 	font-family: 'Open Sans', sans-serif;
 }
 p, li{
 	color:rgba(255, 255, 255, .8);
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
 a{
 	text-decoration: none;
