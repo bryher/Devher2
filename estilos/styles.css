@@ -509,6 +509,22 @@ img{
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 }
+.loader{
+	width: 100px;
+	height: 100px;
+	margin:auto;
+}
+.loader-div{
+	width: calc(100% - .5px);
+	height: calc(100% - .5px);
+	border: 2px solid #000;
+	border-top: 2px solid #2c440d;
+	border-radius: 50%;
+	animation: rotate 100s linear infinite;
+}
+@keyframes rotate {
+	100%{transform: rotate(360deg);}
+}
 /*Boton de donaciones*/
 .boton{
 	width: 30%;
