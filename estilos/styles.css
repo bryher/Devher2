@@ -91,11 +91,12 @@ body{
 	}
 	div #menu-share{
 		display: block;
-		left: 15px;
+		left: 10px;
+		bottom: -60px;
 	}
 	.head .social-network{
 		position: absolute;
-		top: 65px;
+		top: 40px;
 	}
 }
 /*@media only screen and (max-width: 600px) and (min-width: 400px)  {...}*/
@@ -165,7 +166,7 @@ body{
 	}
 	div #menu-share{
 		display: block;
-    bottom: -55px;
+    bottom: -50px;
 	}
 	.social-network ul{
 		display: none;
@@ -334,8 +335,7 @@ a[class|="icon"]:hover, #menico:hover{
 .blog{
 	padding: 20px 50px;
 	margin-bottom: 5px;
-	background-color:#292929;
-	color: white;
+  background: linear-gradient(to bottom, #111, #292929);	color: white;
 	width: 100%;
 	height: 570px;
 	border-top-left-radius: 20px;
@@ -371,11 +371,11 @@ a:hover{
 	background-size:cover;
 	width: 100%;
 	height: 570px;
-	border-top-right-radius: 35%;
-	border-bottom-right-radius: 35%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 10px;
 }
 .image-1-blog{
-	background-image:url(../img/portada1.webp);
+	background-image: url(../img/portada1.webp);
 }
 .image-2-blog{
 	background-image:url(../img/portada2.webp);
