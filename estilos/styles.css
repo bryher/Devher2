@@ -10,7 +10,7 @@
 	--color:hsla(169, 0%, 68%, 0.23);
 	--color-hover:hsla(169, 59%, 0%, 0.25);
 	--color-head:#000;
-	--color-h2:#f1625f;
+	--color-h2:#c7c7c7;
 	--color-a:#51a3f0;
 	--color-a-hover:rgba(0, 149, 230, 1);
 	--color-backgorund:rgba(94, 94, 94, 1);
@@ -337,7 +337,7 @@ a[class|="icon"]:hover, #menico:hover{
 .blog{
 	padding: 20px 50px;
 	margin-bottom: 5px;
-  background: linear-gradient(to bottom, #000, rgba(25, 73, 103, 0.78));
+  background: linear-gradient(to bottom, #000, rgba(112, 112, 112, 0.2), rgba(21, 61, 86, 0.7));
 	color: white;
 	width: 100%;
 	height: 570px;
@@ -445,7 +445,7 @@ p a:hover{
 
 /*fuentes aplicadas a titulos y subtitulos*/
 h1{
-	color: #2bbf9f;
+	color: #22967d;
 	padding-bottom: 20px;
 	padding-top: 15px;
 	font-size: 3em;
@@ -472,8 +472,8 @@ p, a, li {
 	font-family: 'Open Sans', sans-serif;
 }
 p, li{
-	color:rgba(255, 255, 255, 1);
-	font-size: 1.4rem;
+	color:#b5b5b5;
+	font-size: 1.3rem;
 }
 a{
 	text-decoration: none;
