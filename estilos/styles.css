@@ -274,20 +274,10 @@ body{
 .imagen1{
 	background-position: center;
 	background-image: url(../img/world.webp);
-	animation: rotation 2s infinite linear alternate;
 	grid-column: 11/12;
 	height: 300px;
 	width: 300px;
 	background-size:cover;
-}
-@keyframes rotation {
-	from{
-		transform: rotate(0) ;
-	}
-	to{
-		transform: rotate(2deg) ;
-	}
-
 }
 
 .imagen1, .imagen2, .imagen3{
