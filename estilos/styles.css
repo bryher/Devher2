@@ -110,7 +110,7 @@ body{
 		width: 250px
 	}
 	div.imagen2{
-		background-size: 80%;
+		background-size: 80vw;
 	}
 	div.imagen3{
 		grid-column: 4/5;
