@@ -274,7 +274,7 @@ body{
 .imagen1{
 	background-position: center;
 	background-image: url(../img/world.webp);
-	animation: rotation 3s infinite linear alternate;
+	animation: rotation 2s infinite linear alternate;
 	grid-column: 11/12;
 	height: 300px;
 	width: 300px;
@@ -285,7 +285,7 @@ body{
 		transform: rotate(0) ;
 	}
 	to{
-		transform: rotate(3deg) ;
+		transform: rotate(2deg) ;
 	}
 
 }
