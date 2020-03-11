@@ -279,9 +279,9 @@ body{
 	height: 300px;
 	width: 300px;
 	background-size:cover;
-        z-index:-10;
 }
 @keyframes rotation {
+        z-index: -10;
 	from{
 		transform: rotate(0) ;
 	}
