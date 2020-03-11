@@ -167,7 +167,7 @@ body{
 		grid-column: 11/12;
 		height: 300px;
 		width: 300px;
-		margin-top: auto;
+		margin-bottom: 0;
 	}
 	div.imagen3{
 		height: 70px;
