@@ -254,7 +254,6 @@ body{
   z-index:1;
 }
 .imagen2{
-	padding-top: 50px;
 	height: 470px;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
