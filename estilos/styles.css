@@ -162,12 +162,13 @@ body{
     margin-left:0;
 	}
 	div.imagen1{
-		grid-column: 5/13;
-		height: 300px;
-		width: 300px;
+		grid-column: 4/13;
+		height: 250px;
+		width: 250px;
 		margin-bottom: 0;
 	}
 	div.imagen3{
+                grid-column:1/2;
 		height: 70px;
 		width: 70px;
 	}
