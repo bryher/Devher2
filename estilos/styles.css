@@ -252,7 +252,7 @@ text-align: center;	}
   z-index:1;
 }
 .imagen2{
-	height: 400px;
+	height: 600px;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	width: 100%;
