@@ -166,10 +166,10 @@ body{
 		grid-column: 5/13;
 		height: 300px;
 		width: 300px;
-		margin-bottom: 0;
+		margin-top: auto;
 	}
 	div.imagen3{
-                grid-column:1/2;
+    grid-column:3/4;
 		height: 60px;
 		width: 60px;
 	}
@@ -220,6 +220,8 @@ body{
 	}
 	div.imagen1{
 		margin-top: auto;
+		height: 250px;
+		width: 250px;
 		grid-column: 2/13;
 	}
 }
@@ -256,7 +258,7 @@ body{
   z-index:1;
 }
 .imagen2{
-	height: 600px;
+	height: 500px;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	width: 100%;
@@ -561,8 +563,8 @@ img{
  }
 
 .brillo{
-	-webkit-filter: brightness(60%);
-	filter: brightness(60%);
+	-webkit-filter: brightness(70%);
+	filter: brightness(70%);
 }
 /*Estilos de la página cursos*/
 .seccion-cursos{
