@@ -31,8 +31,7 @@ body{
 .icon-login{
 	grid-column: 3/6;
 	border-radius: 8px;
-	border: 2px solid rgba(0, 119, 184, 1);
-	padding.left: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	padding-right: 5px;
 }
 .icon-home{
@@ -278,8 +277,8 @@ body{
 .imagen1{
 	background-image: url(../img/world.webp);
 	grid-column: 11/12;
-	height: 300px;
-	width: 300px;
+	height: 400px;
+	width: 400px;
 	background-size:cover;
 }
 
@@ -485,7 +484,7 @@ a:hover{
 	width: 65%;
 	margin: 20px auto;
 	padding: 20px;
-	border: 4px solid #b5697d;
+	border: 2px solid #b5697d;
 	border-radius: 10px;
 }
 .host{
@@ -580,10 +579,17 @@ img{
 	grid-column: 7/12;
 	margin: 5px 20px 5px 0;
 }
-
+.items-inf{
+	background-color: #04213a;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	padding: 15px;
+}
 .img-cursos{
-	border-top-right-radius: 15px;
-	border-top-left-radius: 15px;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
 }
 .boton{
 	width: 30%;
