@@ -160,7 +160,7 @@ body{
 	div.imagen2{
 		margin-top: 0;
     margin-left:0;
-                background-size:cover;
+                background-size:container;
 	}
 	div.imagen1{
 		grid-column: 5/13;
