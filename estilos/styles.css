@@ -110,7 +110,7 @@ body{
 		width: 250px
 	}
 	div.imagen2{
-		background-size: 80vw;
+		background-size: 90%;
 	}
 	div.imagen3{
 		grid-column: 3/4;
@@ -160,16 +160,18 @@ body{
 	div.imagen2{
 		margin-top: 0;
     margin-left:0;
+                background-size:150%;
 	}
 	div.imagen1{
-		grid-column: 8/13;
-		height: 200px;
-		width: 200px;
+		grid-column: 5/13;
+		height: 300px;
+		width: 300px;
 		margin-bottom: 0;
 	}
 	div.imagen3{
-		height: 70px;
-		width: 70px;
+                grid-column:1/2;
+		height: 60px;
+		width: 60px;
 	}
 }
 @media (max-width: 550px){
@@ -218,7 +220,7 @@ body{
 	}
 	div.imagen1{
 		margin-top: auto;
-		grid-column: 5/13;
+		grid-column: 2/13;
 	}
 }
 @media (max-width: 396px){
@@ -254,7 +256,7 @@ body{
   z-index:1;
 }
 .imagen2{
-	height: 400px;
+	height: 600px;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	width: 100%;
