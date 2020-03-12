@@ -163,8 +163,8 @@ body{
 	}
 	div.imagen1{
 		grid-column: 8/13;
-		height: 200px;
-		width: 200px;
+		height: 300px;
+		width: 300px;
 		margin-bottom: 0;
 	}
 	div.imagen3{
