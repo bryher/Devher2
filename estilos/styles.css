@@ -162,9 +162,9 @@ body{
     margin-left:0;
 	}
 	div.imagen1{
-		grid-column: 2/13;
-		height: 250px;
-		width: 250px;
+		grid-column: 5/13;
+		height: 300px;
+		width: 300px;
 		margin-bottom: 0;
 	}
 	div.imagen3{
@@ -216,7 +216,7 @@ body{
 	}
 	div.imagen1{
 		margin-top: auto;
-		grid-column: 5/13;
+		grid-column: 3/13;
 	}
 }
 @media (max-width: 396px){
