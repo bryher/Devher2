@@ -57,7 +57,7 @@
 					<div class="logo">
 								<a href="https://devher.space/"><img src="img/devher.png"></a>
 					</div>
-					<a class="icon-login" href="#">
+					<a class="icon-login" href="#" onclick="abrirEnPestana(url)">
 							<svg class="bi bi-person" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   								<path fill-rule="evenodd" d="M15 16s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002zM5.022 15h9.956a.274.274 0 00.014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C13.516 12.68 12.289 12 10 12c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 00.022.004zm9.974.056v-.002zM10 9a2 2 0 100-4 2 2 0 000 4zm3-2a3 3 0 11-6 0 3 3 0 016 0z" clip-rule="evenodd"/>
 								</svg><span class="text-login">Iniciar Sesión</span></a>
@@ -219,6 +219,35 @@
 		<br>
 		<div><p>&copy2020 Devher derechos reservados</p></div>
 	</footer>
+
+
+
+
+<!-- scripts de firebase	 -->
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+
+	<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyB4oO4alG3DnZvr9NvpPSYMFo0wnQdNdKk",
+			authDomain: "login-signin-71164.firebaseapp.com",
+			databaseURL: "https://login-signin-71164.firebaseio.com",
+			projectId: "login-signin-71164",
+			storageBucket: "login-signin-71164.appspot.com",
+			messagingSenderId: "496582042190",
+			appId: "1:496582042190:web:f040a0cab026730b25591f",
+			measurementId: "G-3CZH0FE26B"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+	</script>
+	<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
 	<script src="js/dinam.js"></script>
 </body>
 </html>
