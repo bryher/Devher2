@@ -57,4 +57,4 @@ function abrirEnPestana(url) {
   a.click();
 }
 
-var url="./login-sign/";
+var url="./login-sign";
