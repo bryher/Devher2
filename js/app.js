@@ -60,12 +60,12 @@ function observador() {
   } else {
     // User is signed out.
     // ...
-    console.log('no activo')
+    console.log('no activo');
   }
 });
 }
 observador();
 
 function activo() {
-  window.open("https://devher.space/", "_self")
+  window.open("./", "_self")
 }

@@ -289,6 +289,9 @@ body{
 .logo img{
 	border-radius: 0;
 }
+#image-usuario{
+	width: 30px;
+}
 .social-network{
 	position: absolute;
 	top: 150px;
