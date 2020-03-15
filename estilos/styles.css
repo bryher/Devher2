@@ -28,7 +28,11 @@ body{
 .icon-back{
 	grid-column: 4/5;
 }
-.icon-login{
+#loginLook{
+	grid-column: 5/6;
+	margin: auto;
+}
+.icon-login {
 	grid-column: 3/6;
 	border-radius: 8px;
 	border: 1px solid rgba(255, 255, 255, 0.2);
@@ -86,6 +90,9 @@ body{
 	}
 	div.item-curso-colum2{
 		grid-column: 7/13;
+	}
+	#loginLook{
+		grid-column: 5/6
 	}
 	.icon-login{
 		grid-column: 3/7
@@ -232,7 +239,7 @@ body{
 		font-size: 1.3rem;
 	}
 
-	.icon-login{
+	.icon-login, #loginLook{
 		display: none;
 	}
 	.icon-blog{
@@ -289,9 +296,9 @@ body{
 .logo img{
 	border-radius: 0;
 }
-#image-usuario{
+/* #image-usuario{
 	width: 30px;
-}
+} */
 .social-network{
 	position: absolute;
 	top: 150px;
