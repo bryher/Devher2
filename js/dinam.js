@@ -79,5 +79,17 @@ function loginLookActivo() {
   document.getElementById('loginlook2').innerHTML = `<img src="img/man.svg" id="image-usuario"style="width: 60px;">`
   document.getElementById('loginLook').classList.add('icon-logina')
   document.getElementById('loginLook').innerHTML = `<img src="img/man.svg" id="image-usuario" style="width: 40px;">`
+  document.getElementById('salir').innerHTML = `<a href="#" onclick="cerrarSesion()">Salir</a>`
 
+
+}
+
+
+// Cerrar sesion
+function cerrarSesion() {
+      firebase.auth().signOut().then(function() {
+      // Sign-out successful.
+      }).catch(function(error) {
+      // An error happened.
+      });
 }
