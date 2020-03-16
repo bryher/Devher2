@@ -71,9 +71,9 @@ function activo() {
 }
 // autenticacion con google
 
-function registrarGoogle(){
+var provider = new firebase.auth.GoogleAuthProvider();
 
-  var provider = new firebase.auth.GoogleAuthProvider();
+function registrarGoogle(){
 
   firebase.auth().signInWithPopup(provider).then(function(result) {
   // This gives you a Google Access Token. You can use it to access the Google API.
