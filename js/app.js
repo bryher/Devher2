@@ -27,12 +27,38 @@ observador();
 function activo() {
   window.open("./", "_self")
 }
+
+// autenticacion con facebook
+
+var provider = new firebase.auth.FacebookAuthProvider()
+
+ function registrarFacebook(){
+   firebase.auth().signInWithRedirect(provider).then(function(result) {
+   // This gives you a Facebook Access Token. You can use it to access the Facebook API.
+   var token = result.credential.accessToken;
+   // The signed-in user info.
+   var user = result.user;
+   // ...
+ }).catch(function(error) {
+   // Handle Errors here.
+   var errorCode = error.code;
+   var errorMessage = error.message;
+   // The email of the user's account used.
+   var email = error.email;
+   // The firebase.auth.AuthCredential type that was used.
+   var credential = error.credential;
+   // ...
+});
+ }
+
+
 // autenticacion con google
 
+var provider1 = new firebase.auth.GoogleAuthProvider();
 
 function registrarGoogle(){
 
-  firebase.auth().signInWithRedirect(new firebase.auth.GoogleAuthProvider()).then(function(result) {
+  firebase.auth().signInWithRedirect(provider1).then(function(result) {
   // This gives you a Google Access Token. You can use it to access the Google API.
   var token = result.credential.accessToken;
   // The signed-in user info.
@@ -53,27 +79,6 @@ function registrarGoogle(){
 
 
 
- // autenticacion con facebook
-
-
-  function registrarFacebook(){
-    firebase.auth().signInWithRedirect(new firebase.auth.FacebookAuthProvider()).then(function(result) {
-    // This gives you a Facebook Access Token. You can use it to access the Facebook API.
-    var token = result.credential.accessToken;
-    // The signed-in user info.
-    var user = result.user;
-    // ...
-  }).catch(function(error) {
-    // Handle Errors here.
-    var errorCode = error.code;
-    var errorMessage = error.message;
-    // The email of the user's account used.
-    var email = error.email;
-    // The firebase.auth.AuthCredential type that was used.
-    var credential = error.credential;
-    // ...
-});
-  }
 
 // Registro con correo electrónico
 
