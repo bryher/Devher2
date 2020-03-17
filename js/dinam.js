@@ -60,7 +60,7 @@ function abrirEnPestana(url) {
   a.click();
 }
 
-var url="./login-sign.html";
+var url="./login-sign";
 
 // funcion para insertar icono de login cuando no hay usuario activo
 function loginLook() {
