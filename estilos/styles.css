@@ -627,3 +627,14 @@ img{
 	margin: auto;
 	display: block;
 }
+
+/* libros */
+.libros{
+}
+.libro1{
+	background-image: url(../img/libro1.webp);
+	margin: auto;
+	height: 400px;
+	width: 250px;
+	background-size: cover;
+}
