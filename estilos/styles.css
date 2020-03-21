@@ -629,12 +629,27 @@ img{
 }
 
 /* libros */
-.libros{
-}
-.libro1{
-	background-image: url(../img/libro1.webp);
+.libro1, .libro2, .libro3, .libro4{
 	margin: auto;
 	height: 400px;
 	width: 250px;
 	background-size: cover;
+	border: 1px solid grey;
+}
+.libro1{
+	background-image: url(../img/libro1.webp);
+}
+.libro2{
+	background-image: url(../img/libro2.webp);
+}
+.libro3{
+	background-image: url(../img/libro3.webp);
+}
+.libro4{
+	background-image: url(../img/libro4.webp);
+}
+.download{
+	position: absolute;
+	bottom: -90vh;
+	left: 43vw;
 }
