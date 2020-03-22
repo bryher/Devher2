@@ -181,6 +181,9 @@ body{
 		height: 60px;
 		width: 60px;
 	}
+	header .download{
+		left: 40vw;
+	}
 }
 @media (max-width: 550px){
 	.sect-1, .sect-2{
@@ -235,6 +238,9 @@ body{
 		width: 250px;
 		grid-column: 2/13;
 	}
+	header .download{
+		left: 37vw;
+	}
 }
 @media (max-width: 396px){
 	.blog h2{
@@ -256,7 +262,9 @@ body{
 	#menu .icon-menu{
 		left: 0;
 	}
-
+	header .download{
+		left: 32vw;
+	}
 
 }
 /*Barra de Navegación*/
@@ -652,4 +660,7 @@ img{
 	position: absolute;
 	bottom: -90vh;
 	left: 43vw;
+}
+.download a{
+	color: #f04c00;
 }
