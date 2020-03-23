@@ -238,6 +238,27 @@ body{
 	header .download{
 		left: 37vw;
 	}
+
+	.head .social-network{
+		top: -92vh;
+	}
+	nav .sun{
+		display: none;
+	}
+	#menu{
+		top: 0;
+	}
+	div #menico{
+		top: 93vh;
+	}
+	header .head{
+		background: black;
+		bottom: 0;
+		height: 40px;
+	}
+	#logoC{
+		margin: 3px 10px;
+	}
 }
 @media (max-width: 396px){
 	.blog h2{
@@ -262,7 +283,6 @@ body{
 	header .download{
 		left: 32vw;
 	}
-
 }
 /*Barra de Navegación*/
 .head {
@@ -271,7 +291,7 @@ body{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	position: fixed;
-  z-index:1;
+  z-index: 10;
 }
 .imagen2{
 	height: 500px;
@@ -405,9 +425,9 @@ a[class|="icon"]:hover, #menico:hover{
 #menu ul{
 	margin-top: 15px;
 }
+
 #menico.active1{
 	left: 10px;
-	top: 15px;
 }
 #menu.active{
 	right: 0;
@@ -490,7 +510,7 @@ a:hover{
 
 .sun{
 	position: absolute;
-	bottom: -85vh;
+	bottom: -90vh;
 	left: 18px;
 }
 /*sección de información del blog*/
