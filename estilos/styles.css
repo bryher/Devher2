@@ -105,7 +105,6 @@ body{
 	}
 	div #menu-share{
 		display: block;
-		left: 10px;
 		bottom: -60px;
 	}
 	.head .social-network{
@@ -162,9 +161,7 @@ body{
 	.social-network ul{
 		display: block;
 	}
-	.head .social-network{
-		left: 5px;
-	}
+
 	div.imagen2{
 		margin-top: 0;
     margin-left:0;
@@ -219,7 +216,7 @@ body{
 		display: none;
 	}
 	.head .social-network{
-		left: 0;
+		left: 15px;
 	}
 	#viral{
 		width: 90%
@@ -312,47 +309,47 @@ body{
 
 .social-network{
 	position: absolute;
-	top: 150px;
-	left: 10px;
+	top: 50px;
+	left: 25px;
 }
 .social img{
-	width: 20px;
-	padding: 10px 0;
-	line-height: calc(60px - 6px)
+	width: 15px;
+	margin: auto;
+	border-radius: 0;
+	display: block;
 }
 .social {
 	position: relative;
-	background: #f1f1f1;
+	background: rgba(241, 241, 241, 0.3);
 	display: block;
-	width: 60px;
-	height: 60px;
-	box-shadow: 0 4px 3px rgba(255,255,255,0.3);
+	width: 30px;
+	height: 30px;
 	border-radius: 50%;
 	text-align: center;
 	margin-top: 40px;
 	transition: .5s;
 	padding-top: 8px;
-	background-image: linear-gradient(0deg, #858585, #ababab);
+	background-image: linear-gradient(0deg, rgba(133, 133, 133, 0.3), rgba(171, 171, 171, 0.2));
 
 }
 .social div{
-	background-image: linear-gradient(0deg, #ababab, #858585);
+	background-image: linear-gradient(0deg, rgba(171, 171, 171, 0.2), rgba(133, 133, 133, 0.3));
 	border-radius: 50%;
 	width: 80%;
 	height: 80%;
 	margin: auto;
 }
 .social:hover{
-	box-shadow: 0 13px 10px rgba(255,255,255,0.3);
+	box-shadow: 0 13px 10px rgba(255,255,255,0.2);
 }
 #menu-share{
 	position: absolute;
 	bottom: -380px;
-	left: 25px;
+	left: 0;
 	cursor: pointer;
 	display: none;
   transition-duration: 5s;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 #menu-share svg{
   font-size: 40px;
@@ -382,7 +379,7 @@ text-align: center;
 	width: 40px;
 	margin-top:6px;
 	margin-bottom: 6px;
-	margin-left: 40px;
+	margin-left: 20px;
 }
 a[class|="icon"], #menico{
 	color:rgba(0, 119, 184, 1);
@@ -398,7 +395,7 @@ a[class|="icon"]:hover, #menico:hover{
 	position: fixed;
  	width: 350px;
  	height: 100%;
- 	background: rgba(18, 18, 18, 1);
+ 	background: rgba(18, 18, 18, 0.9);
   backdrop-filter:blur(5px) brightness(200%);
 	-webkit-backdrop-filter:blur(5px);
  	right: -350px;
@@ -494,7 +491,7 @@ a:hover{
 .sun{
 	position: absolute;
 	bottom: -85vh;
-	right: 0;
+	left: 18px;
 }
 /*sección de información del blog*/
 
@@ -567,7 +564,7 @@ p, a, li {
 }
 p, li{
 	color:rgba(255, 255, 255, 1);
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 a{
 	text-decoration: none;
