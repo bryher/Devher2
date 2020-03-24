@@ -16,8 +16,6 @@ function observador() {
     var providerData = user.providerData;
     if (emailVerified == false) {
       verificaUser()
-    }else {
-      window.open("./", "_self")
     };
     // ...
   } else {
