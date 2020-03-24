@@ -5,7 +5,7 @@ function observador() {
   firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     console.log('activo');
-    activo();
+    verificar();
     // User is signed in.
     var displayName = user.displayName;
     var email = user.email;
@@ -14,6 +14,11 @@ function observador() {
     var isAnonymous = user.isAnonymous;
     var uid = user.uid;
     var providerData = user.providerData;
+    if (emailVerified == false) {
+      verificaUser()
+    }else {
+      window.open("./", "_self")
+    };
     // ...
   } else {
     // User is signed out.
@@ -25,7 +30,7 @@ function observador() {
 observador();
 
 function activo() {
-  window.open("./", "_self")
+  window.open("./login-sign", "_self")
 }
 
 // autenticacion con facebook
@@ -87,9 +92,14 @@ function registrarEmail() {
 
   var email = document.getElementById('email').value;
   var password = document.getElementById('password').value;
+  var nombre = document.getElementById('nombre').value;
 
-
-  firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+  const result = firebase.auth().createUserWithEmailAndPassword(email, password)
+  .then(function () {
+    console.log(verficando)
+    activo();
+  })
+  .catch(function(error) {
   // Handle Errors here.
   var errorCode = error.code;
   var errorMessage = error.message;
@@ -111,4 +121,18 @@ function ingresarEmail() {
   var errorMessage = error.message;
   // ...
 });
+}
+
+function verificar() {
+  var user = firebase.auth().currentUser;
+
+user.sendEmailVerification().then(function() {
+  // Email sent.
+}).catch(function(error) {
+  // An error happened.
+});
+}
+
+function verificaUser() {
+  document.getElementById('verif').innerHTML = `<h1>VERIFICA TU CORREO Y RECARGAR</h1>`
 }

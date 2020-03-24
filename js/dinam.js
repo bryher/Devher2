@@ -40,7 +40,10 @@ function observador() {
     var isAnonymous = user.isAnonymous;
     var uid = user.uid;
     var providerData = user.providerData;
-
+    if (emailVerified == false) {
+      verificaUser();
+      console.log(emailVerified);
+    };
     // ...
   } else {
     loginLook();
@@ -96,4 +99,8 @@ function cerrarSesion() {
       }).catch(function(error) {
       // An error happened.
       });
+}
+
+function verificaUser() {
+  document.getElementById('verifica').innerHTML = `<p style='color: red;'>VERIFICA TU CORREO</p> <p style='font-size:15px;'>Sino lo encuentras buscalo con spam</p>`
 }
