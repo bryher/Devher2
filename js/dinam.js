@@ -102,5 +102,5 @@ function cerrarSesion() {
 }
 
 function verificaUser() {
-  document.getElementById('verifica').innerHTML = `<p style='color: red;'>VERIFICA TU CORREO</p> <p style='font-size:15px;'>Sino lo encuentras buscalo con spam</p>`
+  document.getElementById('verifica').innerHTML = `<p style='color: red;'>VERIFICA TU CORREO</p> <p style='font-size:15px;'>Sino lo encuentras buscalo como spam</p>`
 }
