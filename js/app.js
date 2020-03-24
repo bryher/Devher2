@@ -93,10 +93,10 @@ function registrarEmail() {
   var nombre = document.getElementById('nombre').value;
 
   const result = firebase.auth().createUserWithEmailAndPassword(email, password)
-  .then(function () {
-    console.log(verficando);
+  //.then(function () {
+   // console.log(verficando);
     //activo();
-  })
+ // })
   .catch(function(error) {
   // Handle Errors here.
   var errorCode = error.code;
