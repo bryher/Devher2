@@ -95,7 +95,7 @@ function registrarEmail() {
   const result = firebase.auth().createUserWithEmailAndPassword(email, password)
   .then(function () {
     console.log(verficando);
-    activo();
+    //activo();
   })
   .catch(function(error) {
   // Handle Errors here.
