@@ -5,7 +5,6 @@ function observador() {
   firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     console.log('activo');
-    verificar();
     // User is signed in.
     var displayName = user.displayName;
     var email = user.email;
@@ -15,6 +14,7 @@ function observador() {
     var uid = user.uid;
     var providerData = user.providerData;
     if (emailVerified == false) {
+      verificar();
       verificaUser()
     }else {
       window.open("./", "_self")
@@ -99,6 +99,7 @@ function registrarEmail() {
   // Handle Errors here.
   var errorCode = error.code;
   var errorMessage = error.message;
+  alert(error)
   // ...
 });
 }
@@ -115,9 +116,13 @@ function ingresarEmail() {
   // Handle Errors here.
   var errorCode = error.code;
   var errorMessage = error.message;
+  alert(errorMessage)
   // ...
 });
 }
+
+
+// Se envia Email de verificacion
 
 function verificar() {
   var user = firebase.auth().currentUser;
@@ -130,7 +135,19 @@ user.sendEmailVerification().then(function() {
 }
 
 function verificaUser() {
-  document.getElementById('verif').innerHTML = `<h1>VERIFICA TU CORREO Y RECARGA</h1>`;
+  document.getElementById('verif').innerHTML = `<h1>VERIFICA TU CORREO Y RECARGA</h1><p>Es probable que el correo este en spam</p>`;
   document.getElementById('hide').classList.toggle('hide1');
 
+}
+
+// Contraseña
+function contraseña() {
+
+  var contA = document.getElementById('passwordC').value;
+  var contB = document.getElementById('password').value;
+  if (contA == contB) {
+    registrarEmail()
+  }else {
+    alert('Las contraseñas no coinciden')
+  }
 }

@@ -166,7 +166,7 @@ body{
 	div.imagen2{
 		margin-top: 0;
     margin-left:0;
-                background-size:150%;
+    background-size:150%;
 	}
 	div.imagen1{
 		grid-column: 5/13;
@@ -251,6 +251,9 @@ body{
 	}
 	div #menico{
 		top: 93vh;
+		padding: 0 4px;
+		border: 1px solid rgba(0, 119, 184, 1);
+		border-radius: 10px;
 	}
 	header .head{
 		background: black;
@@ -285,7 +288,7 @@ body{
 		left: 32vw;
 	}
 	div #menico{
-		top: 95vh;
+		top: 93vh;
 	}
 }
 /*Barra de Navegación*/
