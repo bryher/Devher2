@@ -82,10 +82,10 @@ function loginLookActivo() {
   document.getElementById('salir').innerHTML = `<a href="#" onclick="cerrarSesion()">Salir</a>`
   document.getElementById('loginlook2').classList.add('icon-login2')
   document.getElementById('loginlook2').removeAttribute('onclick')
-  document.getElementById('loginlook2').innerHTML = `<img src="img/man.svg" id="image-usuario"style="width: 60px;">`
+  document.getElementById('loginlook2').innerHTML = `<img src="img/boy1.svg" id="image-usuario"style="width: 60px;">`
   document.getElementById('loginLook').classList.add('icon-logina')
   document.getElementById('loginLook').removeAttribute('onclick')
-  document.getElementById('loginLook').innerHTML = `<img src="img/man.svg" id="image-usuario" style="width: 40px;">`
+  document.getElementById('loginLook').innerHTML = `<img src="img/boy1.svg" id="image-usuario" style="width: 40px;">`
 
 
 }
