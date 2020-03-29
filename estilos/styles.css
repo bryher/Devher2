@@ -256,7 +256,9 @@ body{
 	#logoC{
 		margin: 3px 10px;
 	}
-
+	div .next{
+		display: block;
+	}
 }
 @media (max-width: 396px){
 	.blog h2{
@@ -295,7 +297,7 @@ body{
   z-index: 10;
 }
 .imagen2{
-	height: 500px;
+	height: 100vh;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	width: 100%;
@@ -318,6 +320,7 @@ body{
 	height: 400px;
 	width: 400px;
 	background-size:cover;
+	margin: auto;
 }
 
 .imagen1, .imagen2, .imagen3{
@@ -449,7 +452,7 @@ a[class|="icon"]:hover, #menico:hover{
 	margin-bottom: 5px;
 	color: white;
 	width: 100%;
-	height: 570px;
+	height: 100vh;
 	background-color: #fff;
 }
 .blog h2, .blog p{
@@ -493,7 +496,7 @@ a:hover{
 	background-size:cover;
 	background-position: center;
 	width: 100%;
-	height: 570px;
+	height: 100vh;
 }
 .image-1-blog{
 	background-image: url(../img/code.webp);
@@ -512,7 +515,13 @@ a:hover{
 	grid-template-columns: repeat(12, 1fr);
 	border: 1px solid #192e28;
 }
-
+.next{
+	display: none;
+	text-align: center;
+	padding-top: 85vh;
+	font-size: 3em;
+	color: var(--color-a);
+}
 .seccion{
 	padding-top: 75px;
 }
@@ -545,8 +554,13 @@ a:hover{
 .img-host{
 	grid-column: 4/10;
 }
-.bienvenida img{
-border-radius: 0;
+.bienvenida{
+	background-image: url(../img/bienvenido.webp);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
 }
 /*Pie de página*/
 .pie{
