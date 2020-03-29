@@ -518,8 +518,8 @@ a:hover{
 .next{
 	display: none;
 	text-align: center;
-	padding-top: 85vh;
-	font-size: 3em;
+	padding-top: 80vh;
+	font-size: 5.5rem;
 	color: var(--color-a);
 }
 .seccion{
