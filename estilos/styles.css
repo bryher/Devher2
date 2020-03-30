@@ -453,13 +453,13 @@ a[class|="icon"]:hover, #menico:hover{
 	color: white;
 	width: 100%;
 	height: 100vh;
-	background-color: #cbd8d6;
+	background-color: #74bbd2;
 }
 .blog h2,.blog .boton4{
-	color: #ce364f;
+	color: #606566;
 }
  .blog p{
-	 color: #000;
+	 color: #262626;
  }
 section .blog p{
 	display: block;
@@ -467,7 +467,7 @@ section .blog p{
 	margin: auto;
 }
 .boton4:hover{
-	background: var(--color-a);
+	background: #dd3647;
 	color: white;
 	transition-duration: 1s;
 }
