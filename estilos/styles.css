@@ -256,9 +256,6 @@ body{
 	#logoC{
 		margin: 3px 10px;
 	}
-	div .next{
-		display: block;
-	}
 }
 @media (max-width: 396px){
 	.blog h2{
@@ -453,13 +450,12 @@ a[class|="icon"]:hover, #menico:hover{
 	color: white;
 	width: 100%;
 	height: 100vh;
-	background-color: #74bbd2;
 }
-.blog h2,.blog .boton4{
+.boton4{
 	color: #606566;
 }
- .blog p{
-	 color: #262626;
+ .blog p, .blog h2{
+	 color: white;
  }
 section .blog p{
 	display: block;
@@ -517,13 +513,7 @@ a:hover{
 	grid-template-columns: repeat(12, 1fr);
 	border: 1px solid #192e28;
 }
-.next{
-	display: none;
-	text-align: center;
-	padding-top: 80vh;
-	font-size: 5.5rem;
-	color: var(--color-a);
-}
+
 .seccion{
 	padding-top: 75px;
 }
