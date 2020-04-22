@@ -77,7 +77,7 @@ body{
 	}
 	.section-blog-princ{
 		grid-column: 1/7;
-		width: 85%;
+		width: 95%;
 		margin: 0 auto;
 	}
 	div.item-curso-colum1{
@@ -262,7 +262,7 @@ body{
 		padding: 5px 15px;
 	}
 	.section-blog-princ p{
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 	}
 
 	.icon-login, #loginLook{
@@ -602,7 +602,9 @@ p, a, li {
 }
 p, li{
 	color:rgba(255, 255, 255, 1);
-	font-size: 1.2rem;
+	font-size: 1.3rem;
+	word-spacing: 4pt;
+	line-height: 28pt;
 }
 a{
 	text-decoration: none;
