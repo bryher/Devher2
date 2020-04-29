@@ -115,7 +115,10 @@ body{
 	#viral{
 		width: 60%
 	}
-
+	div .portada{
+		height: 100vh;
+		width: 100%;
+	}
 }
 /*@media only screen and (max-width: 600px) and (min-width: 400px)  {...}*/
 @media (max-width: 640px){
@@ -283,6 +286,13 @@ body{
 	div #menico{
 		top: 93vh;
 	}
+	div .portada{
+		height: 100vh;
+		width: 80%;
+		margin-left:10%;
+
+	}
+
 }
 /*Barra de Navegación*/
 .head {
@@ -291,7 +301,7 @@ body{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	position: fixed;
-  z-index: 10;
+	z-index: 10;
 }
 .imagen2{
 	height: 100vh;
@@ -306,7 +316,6 @@ body{
 .imagen3{
 	margin: auto;
 	background-image: url(../img/rocket.svg);
-	animation: avance 100s infinite linear ;
 	grid-column: 8/9;
 	height: 60px;
 	width: 60px;
@@ -323,7 +332,23 @@ body{
 .imagen1, .imagen2, .imagen3{
 	background-repeat: no-repeat;
 }
-
+.portada{
+	position: absolute;
+	height: 100vh;
+	width: 55vw;
+}
+.portada p{
+	display: block;
+	width: 100%;
+	margin-top:55vh;
+	font-size: 50px;
+}
+.portada span{
+	display:block;
+	color:white;
+	text-align: center;
+	margin-top: 15px;
+}
 .logo img{
 	border-radius: 0;
 }
@@ -584,7 +609,7 @@ h2{
 	color:var(--color-h2);
 	padding: 10px 20px 40px;
 }
-h1, h2, h3, h4{
+h1, h2, h3, h4, .portada p{
  font-family: 'Ubuntu', sans-serif;
  text-align: center;
 }
@@ -597,7 +622,7 @@ h4{
 	color: #638c26;
 	text-align: left;
 }
-p, a, li {
+p, a, li, span {
 	font-family: 'Roboto', sans-serif;
 }
 p, li{
@@ -612,6 +637,9 @@ a{
 }
 li, .contenido section div{
 	list-style: none;
+}
+.flecha{
+	font-size: 2em;
 }
 img{
 	width: 100%;
