@@ -107,6 +107,6 @@ function verificaUser() {
 
 //popup
 function popup(){
-  window.open("https://clientes.sered.net/aff.php?aff=3505", "_self");
-  window.open("./cómo-comprar-dominio-y-hosting", "_blank");
+  window.open("https://clientes.sered.net/aff.php?aff=3505", "_blank");
+  window.open("./cómo-comprar-dominio-y-hosting", "_self");
 }
