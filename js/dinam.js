@@ -104,3 +104,9 @@ function cerrarSesion() {
 function verificaUser() {
   document.getElementById('verifica').innerHTML = `<p style='color: red;'>VERIFICA TU CORREO</p> <p style='font-size:15px;'>Sino lo encuentras buscalo como spam</p>`
 }
+
+//popup
+function popup(){
+  window.open("https://clientes.sered.net/aff.php?aff=3505", "_self");
+  window.open("./cómo-comprar-dominio-y-hosting", "_blank");
+}
