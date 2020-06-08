@@ -628,7 +628,7 @@ p, a, li, span {
 p, li{
 	color:rgba(255, 255, 255, 1);
 	font-size: 1.3rem;
-	word-spacing: 4pt;
+	word-spacing: 2pt;
 	line-height: 28pt;
 }
 a{
