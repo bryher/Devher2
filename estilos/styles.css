@@ -9,12 +9,7 @@
 	/*--color:hsla(169, 59%, 0%, 0.10);*/
 	--color:hsla(169, 0%, 68%, 0.23);
 	--color-hover:hsla(169, 59%, 0%, 0.25);
-<<<<<<< HEAD
 	--color-head:rgba(0, 0, 0, 0.1);
-=======
-	--color-head:rgba(0, 0, 0, 0.5);
->>>>>>> a65a3fc4d7c5b91b6e91a56de8031878bdb69c44
-	--color-h2:#b054a7;
 	--color-a: rgba(70, 124, 175, 1);
 	--color-a-hover:rgba(0, 149, 230, 1);
 	--color-backgorund:rgba(94, 94, 94, 1);
@@ -610,7 +605,7 @@ h1{
 }
 h2{
 	font-size: 3.5em;
-	color:var(--color-h2);
+	color:#b054a7;
 	padding: 10px 20px 40px;
 }
 h1, h2, h3, h4, .portada p{
