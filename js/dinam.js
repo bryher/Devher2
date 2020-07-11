@@ -7,13 +7,6 @@ btnToggle.addEventListener('click', function () {
   console.log(document.getElementById('menu'))
 });
 
-const socialToggle = document.querySelector('#menu-share');
-
-socialToggle.addEventListener('click', function () {
-  console.log('clik')
-  document.getElementById('social-toggle').classList.toggle('active3');
-  console.log(document.getElementById('social-toggle'))
-});
 
 const sunclic = document.querySelector('.sun');
 
