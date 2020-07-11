@@ -253,8 +253,9 @@ body{
 		bottom: 0;
 		height: 40px;
 	}
-	#logoC{
-		margin: 3px 10px;
+	.logo{
+		position: absolute;
+		bottom: 0;
 	}
 }
 @media (max-width: 396px){
