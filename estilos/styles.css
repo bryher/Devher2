@@ -70,7 +70,8 @@ body{
     padding-bottom: 56.25%;
     padding-top: 30px;
     position: relative;
-		display: none;
+		right: -200px;
+		transition: all 4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
     }
 #iframe iframe, #iframe object, #iframe embed {
     height: 100%;
@@ -87,14 +88,19 @@ body{
 	cursor: pointer;
 	margin-top: 20px;
 }
+#botonVideo img{
+	width: 70px;
+}
+#botonVideo img:hover{
+	width: 75px;
+}
+
 #video.vActive{
 	grid-column: 4/7;
 }
-#videoExpl.showtext{
-	display: none;
-}
+
 #iframe.videoBlock{
-	display: block;
+	right: 0;
 }
 #section-blog-princ2.vActive2{
 	grid-column: 1/4;
@@ -208,12 +214,9 @@ body{
 		padding-left: 0;
 		width: 90%
 	}
- #fecha{
-	 display: none;
- }
- #videoExpl{
-	 display: none;
- }
+	#videoIco{
+		display: none;
+	}
 }
 @media (max-width: 550px){
 	.sect-1,.sect-2, .sect-3, .sect-4{

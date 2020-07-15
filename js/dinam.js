@@ -16,16 +16,7 @@ sunclic.addEventListener('click', function () {
   console.log(document.getElementById('low'))
 });
 
-const btnVideo = document.querySelector('#botonVideo');
 
-btnVideo.addEventListener('click', function () {
-  console.log('clik')
-  document.getElementById('video').classList.toggle('vActive');
-  document.getElementById('section-blog-princ2').classList.toggle('vActive2');
-  document.getElementById('iframe').classList.toggle('videoBlock');
-  document.getElementById('videoExpl').classList.toggle('showtext');
-  console.log(document.getElementById('video'))
-});
 // verificador de usuario
 
 // Observador del usuario
@@ -112,3 +103,14 @@ function popup(){
   window.open("./cómo-comprar-dominio-y-hosting", "_blank");
   window.open("https://clientes.sered.net/aff.php?aff=3505", "_self");
 }
+const btnVideo = document.querySelector('#botonVideo');
+
+// boton del video
+
+btnVideo.addEventListener('click', function () {
+  console.log('clik')
+  document.getElementById('video').classList.toggle('vActive');
+  document.getElementById('section-blog-princ2').classList.toggle('vActive2');
+  document.getElementById('iframe').classList.toggle('videoBlock');
+  console.log(document.getElementById('video'))
+});
