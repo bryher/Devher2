@@ -104,8 +104,13 @@ body{
 #menico{
 		position: fixed;
   	right: 380px;
-  	top: 10px;
   	cursor: pointer;
+
+}
+#menico span{
+	display: block;
+	height: 50px;
+	margin: 5px auto;
 }
 .icon-blog{
 	grid-column: 7/9;
@@ -164,10 +169,7 @@ body{
 	.host div{
 		grid-column: 2/12;
 	}
-	div #menico {
-    top: 2px;
-    right: 355px;
-	}
+
 	div.item-curso-colum1, div.item-curso-colum2{
 		grid-column: 2/12;
 		margin: 10px;
@@ -284,8 +286,8 @@ body{
 	#menu{
 		top: 0;
 	}
-	div #menico{
-		top: 93vh;
+	#menico {
+		bottom: -13px;
 
 	}
 	header .head{
