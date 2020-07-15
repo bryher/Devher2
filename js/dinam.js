@@ -16,26 +16,6 @@ sunclic.addEventListener('click', function () {
   console.log(document.getElementById('low'))
 });
 
-const twenty = document.querySelector('.boton4');
-
-// boton del video
-
-twenty.addEventListener('click', function () {
-  console.log('clik')
-  document.getElementById('tema1').classList.toggle('tema');
-  document.getElementById('up').classList.toggle('apar');
-  console.log(document.getElementById('tema1'))
-});
-const up = document.querySelector('#up');
-
-// boton del video
-
-up.addEventListener('click', function () {
-  console.log('clik')
-  document.getElementById('tema1').classList.toggle('tema');
-  document.getElementById('up').classList.toggle('apar');
-  console.log(document.getElementById('tema1'))
-});
 
 // verificador de usuario
 
@@ -123,14 +103,24 @@ function popup(){
   window.open("./cómo-comprar-dominio-y-hosting", "_blank");
   window.open("https://clientes.sered.net/aff.php?aff=3505", "_self");
 }
-const btnVideo = document.querySelector('#botonVideo');
+
+const twenty = document.querySelector('.boton4');
+
+// boton del temas
+
+twenty.addEventListener('click', function () {
+  console.log('clik')
+  document.getElementById('tema1').classList.toggle('tema');
+  document.getElementById('up').classList.toggle('apar');
+  console.log(document.getElementById('tema1'))
+});
+const up = document.querySelector('#up');
 
 // boton del video
 
-btnVideo.addEventListener('click', function () {
+up.addEventListener('click', function () {
   console.log('clik')
-  document.getElementById('video').classList.toggle('vActive');
-  document.getElementById('section-blog-princ2').classList.toggle('vActive2');
-  document.getElementById('iframe').classList.toggle('videoBlock');
-  console.log(document.getElementById('video'))
+  document.getElementById('tema1').classList.toggle('tema');
+  document.getElementById('up').classList.toggle('apar');
+  console.log(document.getElementById('tema1'))
 });
