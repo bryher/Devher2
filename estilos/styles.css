@@ -106,7 +106,7 @@ body{
 	grid-column: 1/4;
 }
 #menico{
-		position: absolute;
+		position: fixed;
   	right: 380px;
   	top: 10px;
   	cursor: pointer;
@@ -324,9 +324,7 @@ body{
 	header .download{
 		left: 32vw;
 	}
-	div #menico{
-		top: 93vh;
-	}
+
 	div .portada{
 		height: 100vh;
 		width: 80%;
@@ -507,7 +505,7 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 	height: 100vh;
 }
 .boton4{
-	color: #606566;
+	color: #848a8b;
 }
 
 section .blog p{
@@ -541,6 +539,25 @@ section .blog p{
 }
 a:hover{
 	color:var(--color-a-hover);
+}
+#tema1{
+	display: none;
+}
+#tema1.tema{
+	display: block;
+}
+
+#up{
+	position: fixed;
+	right: 40px;
+	top: 80vh;
+	margin-top: 0;
+	display: none;
+	grid-column: 6/7;
+	cursor: pointer;
+}
+#up.apar{
+	display: block;
 }
 .image-1-blog, .image-2-blog, .image-3-blog{
 	background-size:cover;
