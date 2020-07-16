@@ -207,10 +207,14 @@ body{
 	#viral{
 		width: 70%
 	}
+        .descripción{
+          display:none;
+        }
 	#video{
 		grid-column: 1/7;
 		width: 95%;
 		margin: auto;
+                padding-bottom:0;
 	}
 	#iframe{
 		display: block;
