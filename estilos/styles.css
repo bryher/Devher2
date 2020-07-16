@@ -62,7 +62,7 @@ body{
 }
 #video{
 	grid-column: 6/7;
-	margin: 0;
+	padding-bottom: 20vh;
 }
 #iframe {
     height: 0;
@@ -78,13 +78,21 @@ body{
   }
 #botonVideo{
 	position:sticky;
-	top: 10vw;
+	top: 20vw;
 	text-align: center;
 	color: #d9d9d9;
 	cursor: pointer;
+	margin-top: 10vh;
 }
 #botonVideo img{
 	width: 70px;
+}
+.description{
+	position: absolute;
+	bottom: -180px;
+}
+.description .boton3{
+	margin-left: auto;
 }
 #botonVideo img:hover{
 	width: 75px;
