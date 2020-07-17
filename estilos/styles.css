@@ -62,7 +62,7 @@ body{
 }
 #video{
 	grid-column: 6/7;
-	padding-bottom: 20vh;
+	padding-bottom: 30vh;
 }
 #iframe {
     height: 0;
@@ -74,7 +74,7 @@ body{
     height: 88%;
     left: 0;
     position: absolute;
-    width: 100%;
+    width: 99%;
   }
 #botonVideo{
 	position:sticky;
@@ -90,6 +90,9 @@ body{
 .description{
 	position: absolute;
 	bottom: -180px;
+}
+.description p{
+	margin: auto 10px;
 }
 .description .boton3{
 	margin-left: auto;
@@ -207,14 +210,14 @@ body{
 	#viral{
 		width: 70%
 	}
-        .descripción{
-          display:none;
-        }
+  .description{
+  	bottom: -85px;
+  }
 	#video{
 		grid-column: 1/7;
 		width: 95%;
 		margin: auto;
-                padding-bottom:0;
+		padding-bottom: 5vh;
 	}
 	#iframe{
 		display: block;
@@ -227,6 +230,9 @@ body{
 	}
 	#videoIco{
 		display: none;
+	}
+	#botonVideo{
+		margin-top: 0;
 	}
 }
 @media (max-width: 550px){
@@ -278,7 +284,9 @@ body{
 		position: relative;
 		bottom: 5px;
 	}
-
+	div .seccion {
+    padding-top: 0;
+}
 
 }
 @media (max-width: 550px){
@@ -636,6 +644,7 @@ a:hover{
 .pie{
 	background-color: var(--color-head);
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .pie p{
