@@ -64,6 +64,20 @@ body{
 	grid-column: 6/7;
 	padding-bottom: 30vh;
 }
+.section-blog-princ3{
+	grid-column: 2/5;
+}
+.boton-download{
+	grid-column: 5/7;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ebook-download{
+	position:sticky;
+	top: 20vw;
+	text-align: center;
+	margin-top: 10vh;
+}
 #iframe {
     height: 0;
     overflow: hidden;
@@ -78,7 +92,7 @@ body{
   }
 #botonVideo{
 	position:sticky;
-	top: 20vw;
+	top: 10vw;
 	text-align: center;
 	color: #d9d9d9;
 	cursor: pointer;
@@ -173,6 +187,9 @@ body{
 		height: 100vh;
 		width: 100%;
 	}
+	#miModal{
+		width: 80%;
+	}
 }
 /*@media only screen and (max-width: 600px) and (min-width: 400px)  {...}*/
 @media (max-width: 640px){
@@ -204,9 +221,6 @@ body{
 		height: 60px;
 		width: 60px;
 	}
-	header .download{
-		left: 40vw;
-	}
 	#viral{
 		width: 70%
 	}
@@ -233,6 +247,13 @@ body{
 	}
 	#botonVideo{
 		margin-top: 0;
+	}
+	#miModal{
+		width: 90%;
+		margin-left: 0;
+	}
+	div .modal-close{
+		right: 0;
 	}
 }
 @media (max-width: 550px){
@@ -277,16 +298,24 @@ body{
 	 #content{
 		border: none;
 	}
-	header .download{
-		top: -5vh;
-	}
 	#logoC{
 		position: relative;
 		bottom: 5px;
 	}
 	div .seccion {
     padding-top: 0;
-}
+	}
+	.boton-download{
+		grid-column: 6/7;
+		padding-right: 15px;
+	}
+	.section-blog-princ3{
+		grid-column: 1/6;
+	}
+	#miModal{
+		width: 100%;
+		top: 0;
+	}
 
 }
 @media (max-width: 550px){
@@ -295,9 +324,6 @@ body{
 		height: 250px;
 		width: 250px;
 		grid-column: 2/13;
-	}
-	header .download{
-		left: 37vw;
 	}
 	nav .sun{
 		display: none;
@@ -338,10 +364,6 @@ body{
 	#menu .icon-menu{
 		left: 0;
 	}
-	header .download{
-		left: 32vw;
-	}
-
 	div .portada{
 		height: 100vh;
 		width: 80%;
@@ -783,12 +805,37 @@ img{
 .libro4{
 	background-image: url(../img/libro4.webp);
 }
-.download{
-	position: absolute;
-	bottom: -90vh;
-	left: 43vw;
-	z-index: -10;
+.modal-contenido{
+  width:90%;
+  position: relative;
+	margin: auto;
 }
-.download a{
-	color: #57ff8c;
+.modal-contenido h4{
+	color: white;
+}
+.modal-contenido ul li{
+	font-size: 15px;
+}
+.modal-close{
+	position: absolute;
+	right: -85px;
+}
+/* ventana modal */
+.modal{
+  background-color: rgba(89, 89, 89, .8);
+  position:fixed;
+  top:70px;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+	width: 60%;
+	margin: auto;
+}
+#miModal:target{
+  opacity:1;
+  pointer-events:auto;
+	cursor: pointer;
 }
