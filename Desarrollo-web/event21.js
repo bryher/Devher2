@@ -106,27 +106,9 @@ function uno(){
         }else {
           console.log('false')
         }
-// 7 pregunta
 
-        if(document.testSiete.gender.length){
-        for(i=0;i<document.testSiete.gender.length;i++){
-        if(document.testSiete.gender[i].checked) {
-        marcado=i;
-        }
-        }
-        if(marcado!=-1)
-          console.log("El valor seleccionado es: "+document.testSiete.gender[marcado].value);
-        }
-        result7 = document.testSiete.gender.value;
-
-        if ( result == 'si') {
-          console.log('true')
-        }else {
-          console.log('false')
-        }
-
-      if (result == 'si' && result2 == 'si' && result3 == 'si' && result4 == 'si' && result5 == 'si' && result6 == 'si' && result7 == 'si') {
-          window.open("./DS1F")
+      if (result == 'si' && result2 == 'si' && result3 == 'si' && result4 == 'si' && result5 == 'si' && result6 == 'si') {
+          window.open("./AS1Q")
       }else {
         document.getElementById('testResult').innerHTML = `<br><p>Una o más de las respuesta son incorrectas. Por favor revisa de nuevo y sigue intentandolo.</p><br>`
       }

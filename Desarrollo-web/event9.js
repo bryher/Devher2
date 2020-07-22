@@ -126,7 +126,7 @@ function uno(){
         }
 
       if (result == 'si' && result2 == 'si' && result3 == 'si' && result4 == 'si' && result5 == 'si' && result6 == 'si' && result7 == 'si') {
-          window.open("./DS1F")
+          window.open("./2FG4")
       }else {
         document.getElementById('testResult').innerHTML = `<br><p>Una o más de las respuesta son incorrectas. Por favor revisa de nuevo y sigue intentandolo.</p><br>`
       }
