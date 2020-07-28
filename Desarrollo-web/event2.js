@@ -125,7 +125,7 @@ function uno(){
         function suma(){
           sumaRes = result + result2 + result3 + result4 + result5 + result6 ;
           console.log(sumaRes);
-          sumafin = 'Tu puntaje es: 7/' + sumaRes;
+          sumafin = 'Tu puntaje es: 6/' + sumaRes;
         }
         suma();
         document.getElementById('testResult').innerHTML = `<br><p>Una o más de las respuesta son incorrectas. Por favor revisa de nuevo y sigue intentándolo.</p><br>`;

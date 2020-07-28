@@ -164,6 +164,9 @@ body{
 	width: 50px;
 	text-align: center;
 }
+code{
+	color: white;
+}
 /*Media query*/
 
 @media (max-width: 800px){
@@ -493,10 +496,8 @@ body{
 	box-shadow: 0 13px 10px rgba(255,255,255,0.2);
 }
 .items{
-	font-size: 1.5em;
-	padding: 8px;
-	text-align: center;
-	width: 90%;
+	font-size: 1em;
+	padding: 5px;
 	margin: auto;
 }
 .icon-login2, #blog2{
@@ -558,9 +559,6 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 }
 #menu.active{
 	right: 0;
-}
-.items:hover{
-	border-right: 6px solid #dd673c;
 }
 .items a:hover{
 	color: #dd673c;
