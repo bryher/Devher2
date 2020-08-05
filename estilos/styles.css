@@ -54,7 +54,6 @@ body{
 }
 .section-blog-princ{
 	grid-column: 2/6;
-	margin: 0 auto;
 }
 #section-blog-princ2{
 	grid-column: 2/6;
@@ -539,6 +538,9 @@ a[class|="icon"] svg, #menico svg{
 a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 	color:#00e099;
 }
+.items a{
+	color:#9faeb2
+}
 #menu{
 	position: fixed;
  	width: 350px;
@@ -560,9 +562,7 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 #menu.active{
 	right: 0;
 }
-.items a:hover{
-	color: #dd673c;
-}
+
 /*Seccion principal del blog*/
 .blog{
 	margin-bottom: 5px;
@@ -590,8 +590,8 @@ section .blog p{
 	transition-duration: 1s;
 }
 .boton2:hover{
-	background: #3fc700;
-	box-shadow: 0 0 10px #3fc700, 0 0 40px #3fc700, 0 0 80px #3fc700;
+	background: #c7b600;
+	box-shadow: 0 0 10px #c7b600, 0 0 40px #c7b600, 0 0 80px #c7b600;
 }
 .boton3:hover{
 	background: #c72800;
@@ -754,7 +754,7 @@ li, .contenido section div{
 	list-style: none;
 }
 .flecha{
-	font-size: 3rem;
+	font-size: 2rem;
 }
 img{
 	width: 100%;
