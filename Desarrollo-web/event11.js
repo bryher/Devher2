@@ -13,9 +13,11 @@ function uno(){
     result = document.test.gender.value;
 
     if ( result == 'si') {
-      console.log('true')
+      console.log('true');
+      result = 1;
     }else {
-      console.log('false')
+      console.log('false');
+      result = 0;
     }
 // 2 pregunta
 
@@ -30,10 +32,12 @@ function uno(){
     }
     result2 = document.testDos.gender.value;
 
-    if ( result == 'si') {
-      console.log('true')
+    if ( result2 == 'si') {
+      console.log('true');
+      result2 = 1;
     }else {
-      console.log('false')
+      console.log('false');
+      result2 = 0;
     }
 // 3 pregunta
     if(document.testTres.gender.length){
@@ -47,10 +51,12 @@ function uno(){
     }
     result3 = document.testTres.gender.value;
 
-    if ( result == 'si') {
-      console.log('true')
+    if ( result3 == 'si') {
+      console.log('true');
+      result3 = 1;
     }else {
-      console.log('false')
+      console.log('false');
+      result3 = 0;
     }
 // 4 pregunta
 
@@ -65,10 +71,12 @@ function uno(){
     }
     result4 = document.testCuatro.gender.value;
 
-    if ( result == 'si') {
-      console.log('true')
+    if ( result4 == 'si') {
+      console.log('true');
+      result4 = 1;
     }else {
-      console.log('false')
+      console.log('false');
+      result4 = 0;
     }
 // 5 pregunta
 
@@ -83,10 +91,12 @@ function uno(){
         }
         result5 = document.testCinco.gender.value;
 
-        if ( result == 'si') {
-          console.log('true')
+        if ( result5 == 'si') {
+          console.log('true');
+          result5 = 1;
         }else {
-          console.log('false')
+          console.log('false');
+          result5 = 0;
         }
 // 6 pregunta
 
@@ -101,10 +111,12 @@ function uno(){
         }
         result6 = document.testSeis.gender.value;
 
-        if ( result == 'si') {
-          console.log('true')
+        if ( result6 == 'si') {
+          console.log('true');
+          result6 = 1;
         }else {
-          console.log('false')
+          console.log('false');
+          result6 = 0;
         }
 // 7 pregunta
 
@@ -119,15 +131,24 @@ function uno(){
         }
         result7 = document.testSiete.gender.value;
 
-        if ( result == 'si') {
-          console.log('true')
+        if ( result7 == 'si') {
+          console.log('true');
+          result7 = 1;
         }else {
-          console.log('false')
+          console.log('false');
+          result7 = 0;
         }
 
-      if (result == 'si' && result2 == 'si' && result3 == 'si' && result4 == 'si' && result5 == 'si' && result6 == 'si' && result7 == 'si') {
-          window.open("./MDBN")
+      if (result == 1 && result2 == 1 && result3 == 1 && result4 == 1 && result5 == 1 && result6 == 1 && result7 == 1) {
+          window.open("./MDBN");
       }else {
-        document.getElementById('testResult').innerHTML = `<br><p>Una o más de las respuesta son incorrectas. Por favor revisa de nuevo y sigue intentandolo.</p><br>`
+        function suma(){
+          sumaRes = result + result2 + result3 + result4 + result5 + result6 + result7;
+          console.log(sumaRes);
+          sumafin = 'Tu puntaje es: ' + sumaRes + '/7';
+        }
+        suma();
+        document.getElementById('testResult').innerHTML = `<br><p>Una o más de las respuesta son incorrectas. Por favor revisa de nuevo y sigue intentándolo.</p><br>`;
+        document.getElementById('puntaje').innerHTML = sumafin;
       }
 }
