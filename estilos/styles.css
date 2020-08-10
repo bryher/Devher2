@@ -166,6 +166,40 @@ body{
 code{
 	color: white;
 }
+.subscript{
+	width: 50px;
+	transition-duration: 1.5s;
+}
+.subscript:hover{
+	/* width: 55px; */
+	-webkit-transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	transition-duration: 1.5s;
+}
+.js-copytextarea{
+	position: absolute;
+	right: -500px;
+}
+.js-textareacopybtn{
+	cursor: pointer;
+}
+#copy p{
+	font-size: 15px;
+	color: #36ab5d;
+}
+#copy{
+	padding: 2px;
+	border: 2px solid #36ab5d;
+	width: 90%;
+	margin: auto;
+	border-radius: 10px;
+	background: #143d22;
+}
+.copy1{
+	display: none;
+}
 /*Media query*/
 
 @media (max-width: 800px){
@@ -521,12 +555,13 @@ text-align: center;
 	left: 5px;
 	-webkit-filter: opacity(60%);
 	filter: opacity(60%);
-
+	transition-duration: 0.3s;
 }
 .logo a img:hover{
 	width: 70px;
 	-webkit-filter: opacity(100%);
 	filter: opacity(100%);
+	transition-duration: 0.3s;
 }
 a[class|="icon"], #menico, #loginLook3{
 	color:rgba(0, 149, 230, 1);
@@ -793,28 +828,7 @@ img{
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 }
-.boton{
-	width: 30%;
-	border-radius: 20px;
-	text-align: center;
-	letter-spacing: 7px;
-	text-transform: uppercase;
-	position: absolute;
-	top: 480px;
-	right: 120px;
-	padding-top: 10px;
-}
- .boton:hover{
-	background: #2196f3;
-	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
-	color: black;
-	transition-duration: 3s;
-}
-.boton img{
-	width: 30px;
-	margin: auto;
-	display: block;
-}
+
 
 /* libros */
 .libro1, .libro2, .libro3, .libro4{
