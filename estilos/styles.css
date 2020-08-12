@@ -200,6 +200,11 @@ code{
 .copy1{
 	display: none;
 }
+.social-don{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
 /*Media query*/
 
 @media (max-width: 800px){
