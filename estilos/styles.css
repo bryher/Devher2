@@ -178,27 +178,24 @@ code{
 	transform-style: preserve-3d;
 	transition-duration: 1.5s;
 }
-.js-copytextarea{
-	position: absolute;
-	right: -500px;
-}
-.js-textareacopybtn{
+.blockchain img{
 	cursor: pointer;
+	transition-duration: 1.5s;
 }
-#copy p{
+.blockchain img:hover{
+	-webkit-transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	transition-duration: 1.5s;
+}
+.bitcoin img{
+	width: 50%;
+}
+.bitcoin p{
+	font-size: 15px;
 	font-size: 15px;
 	color: #36ab5d;
-}
-#copy{
-	padding: 2px;
-	border: 2px solid #36ab5d;
-	width: 90%;
-	margin: auto;
-	border-radius: 10px;
-	background: #143d22;
-}
-.copy1{
-	display: none;
 }
 .social-don{
 	text-align: center;
