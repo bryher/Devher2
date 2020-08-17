@@ -17,6 +17,9 @@
 body{
 	background: #000;
 }
+.body1{
+	background: linear-gradient(90deg, rgba(49, 58, 84, 1) 0%, rgba(0,0,0,1) 20%);
+}
 /*Grillas*/
 .sect-1{
 	grid-column: 1/6;
@@ -129,7 +132,9 @@ body{
 	bottom: -180px;
 }
 .description p{
-	margin: auto 10px;
+	font-size: 15px;
+	width: 80%;
+	margin: auto;
 }
 .description .boton3{
 	margin-left: auto;
@@ -291,7 +296,7 @@ code{
 		width: 70%
 	}
   .description{
-  	bottom: -85px;
+  	bottom: -100px;
   }
 	#video{
 		grid-column: 1/7;
@@ -465,7 +470,7 @@ code{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	width: 100%;
-	background-image: url(../img/nebula.webp);
+	background-image: url(../img/nebulosa.webp);
 	background-size: 50%;
 	margin:auto;
 	padding-top: 40px;
@@ -485,8 +490,13 @@ code{
 	background-size:cover;
 	margin: auto;
 }
-
-.imagen1, .imagen2, .imagen3{
+.stars{
+	background-image: url(../img/stars.gif);
+	background-size: contain;
+	background-attachment: fixed;
+	background-position: center;
+}
+.imagen1, .imagen2, .imagen3, .stars{
 	background-repeat: no-repeat;
 }
 .portada{
