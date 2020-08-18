@@ -425,7 +425,7 @@ code{
 		top: 0;
 	}
 	#menico {
-		bottom: 0;
+		bottom: 10px;
 		background-color: black;
 		border: 2px solid grey;
 		border-radius: 50%;
