@@ -16,6 +16,10 @@
 }
 body{
 	background: #000;
+	background-image: url(../img/matrix-min.jpg);
+	background-size: auto;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 .body1{
 	background-image: url(../img/stars.jpg);
