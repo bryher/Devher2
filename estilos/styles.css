@@ -18,7 +18,10 @@ body{
 	background: #000;
 }
 .body1{
-	background: linear-gradient(90deg, rgba(49, 58, 84, 1) 0%, rgba(0,0,0,1) 20%);
+	background-image: url(../img/stars.jpg);
+	background-size: auto;
+	background-attachment: fixed;
+	/* background: linear-gradient(90deg, rgba(49, 58, 84, 1) 0%, rgba(0,0,0,1) 20%); */
 }
 /*Grillas*/
 .sect-1{
@@ -416,9 +419,17 @@ code{
 		top: 0;
 	}
 	#menico {
-		bottom: -13px;
-
+		bottom: 0;
+		background-color: black;
+		border: 2px solid grey;
+		border-radius: 50%;
+		width: 55px;
+		height: 55px;
+		left: -70px;
 	}
+.icon-login{
+	background: none;
+}
 	header .head{
 		bottom: 0;
 		height: 40px;
@@ -426,6 +437,9 @@ code{
 	.logo{
 		position: absolute;
 		bottom: 0;
+	}
+	div #menu ul{
+		margin-top: 10px;
 	}
 }
 @media (max-width: 396px){
@@ -591,6 +605,8 @@ a[class|="icon"], #menico, #loginLook3{
 }
 a[class|="icon"] svg, #menico svg{
 	font-size: 35px;
+	background-color: black;
+	border-radius: 5px;
 }
 a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 	color:#00e099;
