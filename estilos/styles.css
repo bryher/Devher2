@@ -686,15 +686,12 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 	color: white;
 	width: 100%;
 	height: 100vh;
-	padding-top: 20px;
 }
 .blog p{
 	font-size: 1.2rem;
 	text-align: center;
 	width: 50%;
 	margin: auto;
-	/* justify-content:center;
-	align-items: center; */
 }
 .div{
 	width: 100%;
@@ -740,6 +737,24 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 }
 a:hover{
 	color:var(--color-a-hover);
+}
+.link{
+	width: 70px;
+	display:block;
+	margin:auto;
+	transition: all 1s;
+	/* transform: rotate(45deg); */
+}
+.link:hover{
+	transform: rotate(-45deg);
+	transition: all 2s;
+	width: 110px;
+}
+.dedo{
+	display: block;
+	margin: 0 auto auto;
+	width: 20px;
+	transform: rotate(90deg);
 }
 #tema1{
 	display: none;
