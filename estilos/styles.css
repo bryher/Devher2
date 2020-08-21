@@ -675,7 +675,6 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 }
 #menu.active{
 	right: 0;
-        z-index: 100;
 }
 .scroll-menu{
 	position: fixed;
@@ -683,6 +682,7 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: scroll;
+        z-index: -10;
 }
 /*Seccion principal del blog*/
 .blog{
