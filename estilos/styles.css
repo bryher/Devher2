@@ -57,7 +57,10 @@ body{
 }
 .icon-logina{
 	grid-column: 5/6;
-
+}
+.user{
+	background-color: #4ab58c;
+	border-radius: 50%;
 }
 .icon-home{
 	grid-column: 5/9;
@@ -212,11 +215,7 @@ code{
 	font-size: 15px;
 	color: #36ab5d;
 }
-.social-don{
-	text-align: center;
-	width: 80%;
-	margin: auto;
-}
+
 /*Media query*/
 
 @media (max-width: 800px){
@@ -444,12 +443,20 @@ code{
 		position: absolute;
 		bottom: 0;
 	}
-	div #menu ul{
-		margin-top: 10px;
-	}
+
 	.barra{
 		bottom: 0;
 	}
+	section #blog1{
+		background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(46, 56, 86, 1) 90%);
+	}
+	section #blog3{
+		background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,85,41,1) 90%);
+	}
+	section #blog4{
+		background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,34,5,1) 90%);
+	}
+
 }
 @media (max-width: 396px){
 	.blog h2{
@@ -575,9 +582,11 @@ code{
 	box-shadow: 0 13px 10px rgba(255,255,255,0.2);
 }
 .items{
+	color: #c2c2c2;
 	font-size: 1em;
 	margin: auto;
 	border: 1px solid grey;
+	padding: 5px;
 }
 .icon-login2, #blog2{
 	display: none;
@@ -587,7 +596,28 @@ code{
 	margin-top: 8px;
 	font-size: 1.1em;
 }
-
+#salir{
+	border: 2px solid #4ab58c;
+	width: 80px;
+	margin: auto;
+	border-radius: 10px;
+	grid-column: 2/3;
+}
+#salir a{
+	color: #4ab58c;
+}
+.sesion{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr)
+}
+#loginlook2{
+	grid-column: 1/2;
+}
+.canal{
+	grid-column: 3/4;
+	display: block;
+	margin: auto;
+}
 .icon , .icon-login2, .icon-login3{
 text-align: center;
 }
@@ -640,20 +670,16 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 	text-align: center;
 	border: 2px solid grey;
 }
-#menu ul{
-	margin-top: 40px;
-}
-
 #menico.active1{
 	left: 10px;
 }
 #menu.active{
 	right: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
-
 /*Seccion principal del blog*/
 .blog{
-	margin-bottom: 5px;
 	color: white;
 	width: 100%;
 	height: 100vh;
@@ -742,7 +768,6 @@ a:hover{
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	border: 1px solid #192e28;
 }
 
 .seccion{
@@ -834,7 +859,7 @@ h4{
 p, a, li, span {
 	font-family: 'Dosis', sans-serif;
 }
-p, li{
+p{
 	color:rgba(255, 255, 255, 1);
 	font-size: 1.1rem;
 	word-spacing: 3pt;
