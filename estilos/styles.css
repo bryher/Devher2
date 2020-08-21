@@ -675,6 +675,11 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 }
 #menu.active{
 	right: 0;
+}
+.scroll-menu{
+	position: fixed;
+	height: 90%;
+	width: 100%;
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
