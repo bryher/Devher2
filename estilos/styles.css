@@ -494,6 +494,7 @@ code{
 	z-index: 10;
 }
 .barra{
+	width: 100%;
 	position: fixed;
 	height: 4px;
 	z-index: -10;
