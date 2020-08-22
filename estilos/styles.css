@@ -71,6 +71,11 @@ body{
 .section-blog-princ{
 	grid-column: 2/6;
 }
+.controls{
+	grid-column: 1/12;
+	display: flex;
+	height: 100px;
+}
 #section-blog-princ2{
 	grid-column: 2/6;
 	margin: 0 auto;
@@ -713,33 +718,22 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 #blog4{
 	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,34,5,1) 100%);
 }
-.boton4{
-	background: #dd3647;
-}
-.boton2{
-	background: #c7b600;
-}
-.boton3{
-	background: #c72800;
-}
+
 .boton2, .boton3, .boton4{
-	padding: 16px 8px;
-	border-radius: 20px;
-	text-align: center;
 	margin: auto;
 	display: block;
-	width: 170px;
 	color: white;
 }
 .boton2:hover, .boton3:hover, .boton4:hover{
- color: black;
- transition-duration: 1s;
- font-weight: bolder;
+	color: red;
+	transition-duration: 1s;
+	font-weight: bolder;
+
 }
 a:hover{
 	color:var(--color-a-hover);
 }
-.link{
+.link, .link2{
 	width: 70px;
 	display:block;
 	margin:auto;
@@ -750,6 +744,10 @@ a:hover{
 	transform: rotate(-45deg);
 	transition: all .5s;
 	width: 110px;
+}
+.link2:hover{
+	transition: all .5s;
+	width: 90px;
 }
 .dedo{
 	display: block;
