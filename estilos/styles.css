@@ -747,7 +747,7 @@ a:hover{
 }
 .link:hover{
 	transform: rotate(-45deg);
-	transition: all 2s;
+	transition: all .5s;
 	width: 110px;
 }
 .dedo{
