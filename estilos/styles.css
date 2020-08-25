@@ -139,7 +139,6 @@ body{
 	text-align: center;
 	color: #d9d9d9;
 	cursor: pointer;
-	margin-top: 10vh;
 }
 #botonVideo img{
 	width: 70px;
@@ -326,9 +325,10 @@ code{
 		padding-left: 0;
 		width: 90%
 	}
-	#videoIco{
-		display: none;
-	}
+	/* #videoIco{
+		display: block;
+		margin: auto;
+	} */
 	#botonVideo{
 		margin-top: 0;
 	}
@@ -345,7 +345,9 @@ code{
 	section .blog p{
 		width: 85%;
 	}
-
+	#videoIco{
+		display: none;
+	}
 }
 @media (max-width: 550px){
 	.sect-1,.sect-2, .sect-3, .sect-4{
@@ -698,6 +700,10 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 	text-align: center;
 	width: 50%;
 	margin: auto;
+}
+.div2{
+	width: 100%;
+	height: 80px;
 }
 .div{
 	width: 100%;

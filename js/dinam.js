@@ -103,7 +103,7 @@ function popup(){
   window.open("https://clientes.sered.net/aff.php?aff=3505", "_self");
 }
 
-const twenty = document.querySelector('.boton4');
+const twenty = document.querySelector('.bot');
 
 // boton del temas
 
@@ -113,6 +113,7 @@ twenty.addEventListener('click', function () {
   document.getElementById('up').classList.toggle('apar');
   console.log(document.getElementById('tema1'))
 });
+
 const up = document.querySelector('#up');
 
 // boton del video
