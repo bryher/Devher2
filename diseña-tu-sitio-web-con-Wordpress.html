@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
-	<title>▷Como diseñar un web en Wordpress</title>
-	<meta name="title" content="▷Como diseñar un web en Wordpress">
+	<title>Como diseñar un web en Wordpress</title>
+	<meta name="title" content="Como diseñar un web en Wordpress">
 	<meta name="description" content="Quieres diseñar una página web profesional gratis y facil, lo puedes hacer tu mismo">
 	<meta property="og:image" content="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_960_720.jpg">
 	<meta property="og:description" content="Quieres diseñar una página web profesional gratis y facil, lo puedes hacer tu mismo">
@@ -433,5 +433,26 @@
 	<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
 	<script src="js/dinam.js"></script>
 	<script src="js/video.js"></script>
+	<script>
+			// boton del temas
+
+			twenty.addEventListener('click', function () {
+				console.log('clik')
+				document.getElementById('tema1').classList.toggle('tema');
+				document.getElementById('up').classList.toggle('apar');
+				console.log(document.getElementById('tema1'))
+			});
+
+			const up = document.querySelector('#up');
+
+			// boton del video
+
+			up.addEventListener('click', function () {
+				console.log('clik')
+				document.getElementById('tema1').classList.toggle('tema');
+				document.getElementById('up').classList.toggle('apar');
+				console.log(document.getElementById('tema1'))
+			});
+	</script>
 </body>
 </html>
