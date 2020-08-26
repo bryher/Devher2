@@ -190,7 +190,7 @@ code{
 }
 .subscript{
 	width: 50px;
-	transition-duration: 1.5s;
+	transition-duration: 1s;
 }
 .subscript:hover{
 	/* width: 55px; */
@@ -198,18 +198,15 @@ code{
 	-webkit-transform-style: preserve-3d;
 	transform: rotateY(180deg);
 	transform-style: preserve-3d;
-	transition-duration: 1.5s;
+	transition-duration: 1s;
 }
 .blockchain img{
 	cursor: pointer;
-	transition-duration: 1.5s;
+	transition-duration: 1s;
 }
 .blockchain img:hover{
-	-webkit-transform: rotateY(180deg);
-	-webkit-transform-style: preserve-3d;
-	transform: rotateY(180deg);
-	transform-style: preserve-3d;
-	transition-duration: 1.5s;
+	width: 100%;
+	transition-duration: 1s;
 }
 .bitcoin img{
 	width: 50%;
@@ -622,6 +619,17 @@ code{
 	grid-column: 3/4;
 	display: block;
 	margin: auto;
+}
+.devel img:hover{
+	width: 65px;
+}
+.devel img{
+	width: 55px;
+	border-radius: 0;
+}
+.devel{
+	grid-column: 1/2;
+	height: 66px;
 }
 .icon , .icon-login2, .icon-login3{
 text-align: center;
