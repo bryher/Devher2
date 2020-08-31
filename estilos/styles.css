@@ -200,14 +200,6 @@ code{
 	transform-style: preserve-3d;
 	transition-duration: 1s;
 }
-.blockchain img{
-	cursor: pointer;
-	transition-duration: 1s;
-}
-.blockchain img:hover{
-	width: 100%;
-	transition-duration: 1s;
-}
 .bitcoin img{
 	width: 50%;
 }
@@ -216,7 +208,9 @@ code{
 	font-size: 15px;
 	color: #36ab5d;
 }
-
+.stage-begin{
+	cursor: pointer;
+}
 /*Media query*/
 
 @media (max-width: 800px){
