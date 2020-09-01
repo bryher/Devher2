@@ -3,12 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
-	<title>Listas ordenadas y desordenadas test</title>
-	<meta name="title" content="Listas ordenadas y desordenadas test">
-	<meta name="description" content="Mira las etiquetas para poner listas ordenadas y desordenadas, además de anidarlas">
+	<title>Iframe test</title>
+	<meta name="title" content="Iframe test">
+	<meta name="description" content="El iframe es muy útil para hacer incrustaciones de otros sitio web">
 	<meta property="og:image" content="../img/desarrollo-web.webp">
-	<meta property="og:description" content="Mira las etiquetas para poner listas ordenadas y desordenadas, además de anidarlas">
-	<meta property="og:title" content="Listas ordenadas y desordenadas test">
+	<meta property="og:description" content="El iframe es muy útil para hacer incrustaciones de otros sitio web">
+	<meta property="og:title" content="Iframe test">
 	<link rel="stylesheet" type="text/css" href="../estilos/styles.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Raleway&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
 	</script>
 	<style>
 		.barra{
-			background: linear-gradient(90deg, rgba(107, 150, 235, 1) 60%, rgba(15,15,184,0) 60%, rgba(0,212,255,0) 100%);
+			background: linear-gradient(90deg, rgba(107, 150, 235, 1) 71%, rgba(15,15,184,0) 71%, rgba(0,212,255,0) 100%);
 		}
 	</style>
 </head>
@@ -49,7 +49,7 @@
 			<div class="logo">
 				<a href="/."><img src="../img/devher.png"></a>
 			</div>
-			<a class="icon-back" href="13-listas">
+			<a class="icon-back" href="15-iframe">
 				<svg class="bi bi-chevron-left" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 						<path fill-rule="evenodd" d="M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z" clip-rule="evenodd"/>
 					</svg>
@@ -59,7 +59,7 @@
   								<path fill-rule="evenodd" d="M9.646 3.146a.5.5 0 01.708 0l6 6a.5.5 0 01.146.354v7a.5.5 0 01-.5.5h-4.5a.5.5 0 01-.5-.5v-4H9v4a.5.5 0 01-.5.5H4a.5.5 0 01-.5-.5v-7a.5.5 0 01.146-.354l6-6zM4.5 9.707V16H8v-4a.5.5 0 01.5-.5h3a.5.5 0 01.5.5v4h3.5V9.707l-5.5-5.5-5.5 5.5z" clip-rule="evenodd"/>
   								<path fill-rule="evenodd" d="M15 4.5V8l-2-2V4.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
 							</svg></a>
-			<a class="icon-next" href="14-class-id">
+			<a class="icon-next" href="16-formularios">
 					<svg class="bi bi-chevron-right" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 							<path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/>
 					</svg>
@@ -109,80 +109,80 @@
 
 	<section class="seccion">
 		<div class="section-blog-princ">
-			<h1>Listas ordenadas y desordenadas en HTML (Test)</h1>
+			<h1>Iframe y su uso (Test)</h1>
 			<p>Selecciona la respuesta correcta.</p>
 			<p>Prueba tu conocimiento y recibe una recompensa. Si resuelves correctamente obtendrás un premio.</p>
 			<br><br>
-			<p>¿Cuántos tipos de listas existen?</p>
+			<p>¿Para qué se usa la etiqueta div?</p>
 			<br>
 			<form name="test" style='background: white'>
-			  <input type="radio" id="male" name="gender" value="si">
-			  <label for="male">3</label><br>
+			  <input type="radio" id="male" name="gender" value="no">
+			  <label for="male">para poner títulos</label><br>
 			  <input type="radio" id="female" name="gender" value="no">
-			  <label for="female">2</label><br>
-			  <input type="radio" id="other" name="gender" value="no">
-			  <label for="other">1</label>
+			  <label for="female">para poner un párrafo</label><br>
+			  <input type="radio" id="other" name="gender" value="si">
+			  <label for="other">para añadir un bloque y hacer divisiones </label>
 			</form>
-			<p>¿Cómo se enmarca una lista ordenada?</p>
+			<p>¿Para qué usamos clases en los elementos?</p>
 			<br>
 			<form name="testDos" style='background: white'>
-				<input type="radio" id="male" name="gender" value="no">
-				<label for="male">con viñetas</label><br>
-				<input type="radio" id="female" name="gender" value="si">
-				<label for="female">con números</label><br>
+				<input type="radio" id="male" name="gender" value="si">
+				<label for="male">para decirle a un elemento de que clase es</label><br>
+				<input type="radio" id="female" name="gender" value="no">
+				<label for="female">para dar un identificador único</label><br>
 				<input type="radio" id="other" name="gender" value="no">
-				<label for="other">con asterisco</label>
+				<label for="other">para hacer que elemento sea en bloque</label>
 			</form>
 			<br>
-			<p>¿Cómo se enmarca una lista desordenada?</p>
+			<p>¿Para qué usamos id en los elementos?</p>
 			<br>
 			<form name="testTres" style='background: white'>
 				<input type="radio" id="male" name="gender" value="no">
-				<label for="male">con números</label><br>
+				<label for="male">para decirle a un elemento de que clase es</label><br>
 				<input type="radio" id="female" name="gender" value="si">
-				<label for="female">con viñetas</label><br>
+				<label for="female">para dar un identificador único</label><br>
 				<input type="radio" id="other" name="gender" value="no">
-				<label for="other">con guiones</label>
+				<label for="other">para hacer que elemento sea en bloque</label>
 			</form>
-			<p>¿Cuál es la etiqueta para una lista ordenada?</p>
+			<p>¿Cuál es el funcionalidad de los id y las clases?</p>
 			<br>
 			<form name="testCuatro" style='background: white'>
 				<input type="radio" id="male" name="gender" value="no">
-				<label for="male">&lt;li&gt;&lt;/li&gt;</label><br>
+				<label for="male">para dar un título a los elementos</label><br>
 				<input type="radio" id="female" name="gender" value="si">
-				<label for="female">&lt;ol&gt;&lt;/ol&gt;</label><br>
+				<label for="female">para dar un nombre que diferencia a elementos del mismo tipo</label><br>
 				<input type="radio" id="other" name="gender" value="no">
-				<label for="other">&lt;ul&gt;&lt;/ul&gt;</label>
+				<label for="other">para facilitar la lectura del html</label>
 			</form><br>
-			<p>¿Cuál es la etiqueta para una lista de definición?</p>
+			<p>¿Cuál es la característica de un id?</p>
 			<br>
 			<form name="testCinco" style='background: white'>
 				<input type="radio" id="male" name="gender" value="no">
-				<label for="male">&lt;li&gt;&lt;/li&gt;</label><br>
-				<input type="radio" id="female" name="gender" value="si">
-				<label for="female">&lt;dl&gt;&lt;/dl&gt;</label><br>
-				<input type="radio" id="other" name="gender" value="no">
-				<label for="other">&lt;p&gt;&lt;/p&gt;</label>
+				<label for="male">se puede reusar en vario elementos</label><br>
+				<input type="radio" id="female" name="gender" value="no">
+				<label for="female">se puede usar en dos elemento</label><br>
+				<input type="radio" id="other" name="gender" value="si">
+				<label for="other">es único y solo se usa en un elemento</label>
 			</form><br>
-			<p>¿Con qué propiedad modificamos el enmarcado de una lista desordena?</p>
+			<p>¿Cuál el la característica de una clase?</p>
 			<br>
 			<form name="testSeis" style='background: white'>
 				<input type="radio" id="male" name="gender" value="si">
-				<label for="male">list-style-type</label><br>
+				<label for="male">se puede reusar en vario elementos</label><br>
 				<input type="radio" id="female" name="gender" value="no">
-				<label for="female">type</label><br>
+				<label for="female">se puede usar en dos elemento </label><br>
 				<input type="radio" id="other" name="gender" value="no">
-				<label for="other">style</label>
+				<label for="other">es único y solo se usa en un elemento</label>
 			</form><br>
-			<p>¿Qué atributo nos permite cambiar el tipo de enumerado de una lista ordenada?</p>
+			<p>¿Qué significa la etiqueta div?</p>
 			<br>
 			<form name="testSiete" style='background: white'>
-				<input type="radio" id="male" name="gender" value="si">
-				<label for="male">type</label><br>
+				<input type="radio" id="male" name="gender" value="no">
+				<label for="male">significa una sección</label><br>
 				<input type="radio" id="female" name="gender" value="no">
-				<label for="female">list-style-type</label><br>
-				<input type="radio" id="other" name="gender" value="no">
-				<label for="other">style</label>
+				<label for="female">significa una barra de navegación</label><br>
+				<input type="radio" id="other" name="gender" value="si">
+				<label for="other">no tiene un significado en especial solo es un contenedor en bloque</label>
 			</form>
 			<br><br>
 			<div id="testResult"class="section-blog-princ" style="background:#88303d;"></div>
@@ -231,6 +231,6 @@
   </script>
 	<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
 	<script src="../js/dinam.js"></script>
-	<script src="event13.js"></script>
+	<script src="event14.js"></script>
 </body>
 </html>
