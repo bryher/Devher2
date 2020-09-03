@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lag="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<title>Formularios</title>
+	<meta name="title" content="Formularios">
+	<meta name="description" content="Existe varios elementos dentro de los formularios los cuales se usan para distintos tipos de datos">
+	<meta property="og:image" content="../img/desarrollo-web.webp">
+	<meta property="og:description" content="Existe varios elementos dentro de los formularios los cuales se usan para distintos tipos de datos">
+	<meta property="og:title" content="Formularios">
+	<link rel="stylesheet" type="text/css" href="../estilos/styles.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Raleway&display=swap" rel="stylesheet">
+	<link rel="shotcut icon" type="image/png" href="../img/logo.png">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141987034-2"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+ 	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+  	gtag('config', 'UA-141987034-2');
+	</script>
+	<style>
+		.barra{
+			background: linear-gradient(90deg, rgba(107, 150, 235, 1) 73%, rgba(15,15,184,0) 73%, rgba(0,212,255,0) 100%);
+		}
+	</style>
+</head>
+<body class="body">
+
+	<!-- encabezado de mi sitio -->
+
+	<header>
+		<div class="head">
+			<a class="sun">
+						<svg class="bi bi-brightness-fill-low" width="3em" height="3em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="10" cy="10" r="4"/>
+							<circle cx="10" cy="4.5" r=".5"/>
+							<circle cx="10" cy="15.5" r=".5"/>
+							<circle cx="15.5" cy="10" r=".5" transform="rotate(90 15.5 10)"/>
+							<circle cx="4.5" cy="10" r=".5" transform="rotate(90 4.5 10)"/>
+							<circle cx="13.889" cy="6.111" r=".5" transform="rotate(45 13.89 6.11)"/>
+							<circle cx="6.111" cy="13.889" r=".5" transform="rotate(45 6.11 13.89)"/>
+							<circle cx="13.889" cy="13.889" r=".5" transform="rotate(135 13.89 13.89)"/>
+							<circle cx="6.111" cy="6.111" r=".5" transform="rotate(135 6.11 6.11)"/>
+						</svg>
+			</a>
+			<div class="logo">
+				<a href="/."><img src="../img/devher.png"></a>
+			</div>
+			<a class="icon-back" href="15-prueba">
+				<svg class="bi bi-chevron-left" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" d="M13.354 3.646a.5.5 0 010 .708L7.707 10l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+					</svg>
+			</a>
+			<a class="icon-home" href="../">
+						<svg class="bi bi-house" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  								<path fill-rule="evenodd" d="M9.646 3.146a.5.5 0 01.708 0l6 6a.5.5 0 01.146.354v7a.5.5 0 01-.5.5h-4.5a.5.5 0 01-.5-.5v-4H9v4a.5.5 0 01-.5.5H4a.5.5 0 01-.5-.5v-7a.5.5 0 01.146-.354l6-6zM4.5 9.707V16H8v-4a.5.5 0 01.5-.5h3a.5.5 0 01.5.5v4h3.5V9.707l-5.5-5.5-5.5 5.5z" clip-rule="evenodd"/>
+  								<path fill-rule="evenodd" d="M15 4.5V8l-2-2V4.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
+							</svg></a>
+			<a class="icon-next" href="16-prueba">
+					<svg class="bi bi-chevron-right" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/>
+					</svg>
+			</a>
+			<div id="menu">
+				<a id="menico">
+					<span style="font-size:25px;">&#x2630;</span>
+				</a>
+				<div id="verifica"></div>
+				<div class="sesion">
+					<div id="loginlook2" style="display: inline;"></div>
+					<div id="salir"></div>
+					<a class="canal" target="_blank" href="https://www.youtube.com/channel/UCcdGkgNDjJ0HyIMIhc6s6Uw?sub_confirmation=1"><img src="img/youtube-logo.svg" class="subscript"></a>
+				</div>
+				<ul class="scroll-menu">
+					<li class="items"><a href="introduccion">Introducción al Desarrollo Web</a></li>
+					<li class="items"><a href="1-estructura-html">1 Estructura HTML</a></li>
+					<li class="items"><a href="2-herramientas-para-desarrollo">2 Herramientas para Desarrollo Web</a></li>
+					<li class="items"><a href="3-importancia-de-la-etiqueta-head">3 La etiqueta HEAD y su Importancia</a></li>
+					<li class="items"><a href="4-cuerpo-de-la-pagina-web">4 Etiquetas que se visualizan en la página web</a></li>
+					<li class="items"><a href="5-anidados-bloque-linea">5 Elementos anidados, Bloque y en Línea</a></li>
+					<li class="items"><a href="6-etiquetas-de-encabezado-y-parrafo">6 Etiquetas, jerarquías de encabezados y párrafos</a></li>
+					<li class="items"><a href="7-estilos-en-html">7 Estilos en HTML</a></li>
+					<li class="items"><a href="8-hipervinculos">8 Hipervínculos</a></li>
+					<li class="items"><a href="9-imagenes-y-sus-estilos">9 Imágenes en HTML</a></li>
+					<li class="items"><a href="10-repaso">10 Repaso</a></li>
+					<li class="items"><a href="11-tablas">11 Tablas en HTML</a></li>
+					<li class="items"><a href="12-comentarios">12 Comentarios</a></li>
+					<li class="items"><a href="13-listas">13 Listas</a></li>
+					<li class="items"><a href="14-class-id">14 Class, ID</a></li>
+					<li class="items"><a href="15-iframe">15 Iframe</a></li>
+					<li class="items">16 Formularios</li>
+					<li class="items"><a href="17-video-audio">17 Videos y audio</a></li>
+					<li class="items"><a href="18-responsive">18 Responsive</a></li>
+					<li class="items"><a href="19-semantica">19 Semántica</a></li>
+					<li class="items"><a href="20-ruta-de-archivos">20 Rutas de archivos</a></li>
+					<li class="items"><a href="21-repaso-final">21 Repaso final</a></li>
+				</ul>
+			</div>
+			<div class="barra"></div>
+	</header>
+
+
+
+<div id="low">
+	<!--seccion de infomación-->
+
+	<section class="seccion">
+		<div class="section-blog-princ">
+			<h1>Formularios</h1>
+			<iframe width="100%" height="400" src="https://www.youtube.com/embed/mBR0u-1HJqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<br><br>
+			<h2>Tipos de formulario según los datos que recibe</h2>
+			<p>A continuación vamos a ver algunos de los diferentes tipos de <code>input</code> que se pueden usar en HTML:</p>
+			<br>
+			<ul class="formuls">
+				<li>
+					<h4>type="button"</h4>
+					<p>Define un botón:</p><br><br>
+					<form>
+						<input type="submit" value="botón">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="checkbox"</h4>
+					<p>Poner opciones seleccionables que a diferencia del input tipo radio, permite seleccionar varias opciones:</p><br><br>
+					<form style="color:white;">
+						<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+						<label for="vehicle1">opción 1</label><br>
+						<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+						<label for="vehicle2">opción 2</label><br>
+						<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+						<label for="vehicle3">opción 3</label>
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="color"</h4>
+					<p>Permite ingreso de datos en colores, permite seleccionar colores:</p><br><br>
+					<form>
+					  <label for="favcolor">Seleciona un color color:</label>
+					  <input type="color" id="favcolor" name="favcolor">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="date"</h4>
+					<p>Se utiliza para datos de entrada tipo fecha:</p><br><br>
+					<form>
+					  <label for="nacimiento">Fecha de nacimiento:</label>
+					  <input type="date" id="nacimiento" name="nacimiento">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="datetime-local"</h4>
+					<p>Registra datos de entrada tipo fecha sin zona horaria:</p><br><br>
+					<form>
+					  <label for="nacimientotime">Fecha de nacimiento (fecha y hora):</label>
+					  <input type="datetime-local" id="nacimientotime" name="nacimientotime">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="email"</h4>
+					<p>Se utiliza para realizar entrada de datos que contengan correo electrónico:</p><br><br>
+					<form>
+					  <label for="email">Ingresa un correo electrónico:</label>
+					  <input type="email" id="email" name="email">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="file"</h4>
+					<p>Este atributo permite entrada de datos en archivos:</p><br><br>
+					<form>
+					  <label for="myfile">Seleccionar un archivo:</label>
+					  <input type="file" id="myfile" name="myfile">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="password"</h4>
+					<p>Define un campo de ingreso de contraseña:</p><br><br>
+					<form>
+					  <label for="pwd">Contraseña:</label><br>
+					  <input type="password" id="pwd" name="pwd">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="radio"</h4>
+					<p>Este tipo de formulario permite seleccionar entre varias opciones, pero solo permite seleccionar uno a la vez</p><br><br>
+					<form>
+					  <input type="radio" id="male" name="gender" value="male">
+					  <label for="male">opción 1</label><br>
+					  <input type="radio" id="female" name="gender" value="female">
+					  <label for="female">opción 2</label><br>
+					  <input type="radio" id="other" name="gender" value="other">
+					  <label for="other">opción 3</label>
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="ranger"</h4>
+					<p>Define un control deslizante con un rango de 1 a 100 por defecto:</p><br><br>
+					<form>
+					  <label for="vol">Volume:</label>
+					  <input type="range" id="vol" name="vol" min="0" max="50">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="reset"</h4>
+					<p>Es atributo define un botón de restablecimiento de los datos del formulario, si se presiona este botón los que escribiste en los campos vuelve a reiniciarse y se pierden los datos que ingresaste:</p><br><br>
+					<form action="/action_page.php">
+					  <label for="fname">Nombre:</label><br>
+					  <input type="text" id="fname" name="fname" value="Antoni"><br>
+					  <label for="lname">Apellido:</label><br>
+					  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+					  <input type="reset">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="search"</h4>
+					<p>Este tipo de formulario es usado como un buscador que posteriormente se hace de una base datos:</p><br><br>
+					<form>
+						  <label for="gsearch">Google:</label>
+						  <input type="search" id="gsearch" name="gsearch">
+					</form>
+				</li><br>
+				<li>
+					<h4>type="submit"</h4>
+					<p>Define botón para enviar información:</p><br><br>
+					<form>
+					  <label for="fname">First name:</label><br>
+					  <input type="text" id="fname" name="fname" value="John"><br>
+					  <label for="lname">Last name:</label><br>
+					  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+					  <input type="submit" value="Submit">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="tel"</h4>
+					<p>Se usa en entradas de números telefónicos:</p><br><br>
+					<form>
+					  <label for="phone">Ingrese su número de teléfono:</label>
+					  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="text"</h4>
+					<p>Permite ingreso de datos tipo texto de una línea:</p><br><br>
+					<form>
+					  <label for="fname">Ingrese su nombre:</label><br>
+					  <input type="text" id="fname" name="fname"><br>
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="time"</h4>
+					<p>Permite la selección de una hora determinada:</p><br><br>
+					<form>
+					  <label for="appt">Seleccione una hora:</label>
+					  <input type="time" id="appt" name="appt">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="url"</h4>
+					<p>Admiten datos de entrada de un sitio web:</p><br><br>
+					<form>
+					  <label for="homepage">Ingresa tu sitio web:</label>
+					  <input type="url" id="homepage" name="homepage">
+					</form>
+				</li><br><br>
+				<li>
+					<h4>type="week"</h4>
+					<p>Este tipo de formulario permite seleccionar la semana de año específico:</p><br><br>
+					<form>
+					  <label for="week">Seleccione una semana:</label>
+					  <input type="week" id="week" name="week">
+					</form>
+				</li><br><br>
+			</ul>
+		</div>
+	</section>
+</div>
+<div class="div">
+	<a href="16-prueba" class="link2"><img src="../img/prueba.svg"></a>
+</div>
+	<footer class="pie">
+		<br>
+		<p>Dudas y preguntas a: bryher_msm@yahoo.com</p>
+		<hr>
+		<br>
+		<p>&copy2020 Devher derechos reservados</p>
+	</footer>
+
+	<!-- Script -->
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyB4oO4alG3DnZvr9NvpPSYMFo0wnQdNdKk",
+      authDomain: "login-signin-71164.firebaseapp.com",
+      databaseURL: "https://login-signin-71164.firebaseio.com",
+      projectId: "login-signin-71164",
+      storageBucket: "login-signin-71164.appspot.com",
+      messagingSenderId: "496582042190",
+      appId: "1:496582042190:web:f040a0cab026730b25591f",
+      measurementId: "G-3CZH0FE26B"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+	<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
+	<script src="../js/dinam.js"></script>
+</body>
+</html>

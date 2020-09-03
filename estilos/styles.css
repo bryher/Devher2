@@ -866,7 +866,21 @@ a:hover{
 .pie a{
 	color: white;
 }
-
+.formuls h4,.formuls p{
+	display: inline;
+}
+.formuls h4{
+	font-size: 1.2rem;
+	color: #ffadad;
+}
+.formuls form{
+	color:white;
+	text-align: center;
+	background: #376252;
+	padding: 20px;
+	border-radius: 5px;
+	border: solid #77caac 4px;
+}
 p a:hover{
 	text-decoration: underline;
 }
@@ -985,6 +999,7 @@ img{
 }
 .modal-contenido ul li{
 	font-size: 15px;
+	color: white;
 }
 .modal-close{
 	position: absolute;
