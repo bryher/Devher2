@@ -79,14 +79,14 @@ body{
 }
 .home-colum, .home-colum2{
 	padding: 10%;
-	transition-duration: 3s;
-	-webkit-filter: opacity(70%);
-	filter: opacity(70%);
-	transition-duration: 1s;
-	background:#5e5e5e;
+	transition-duration: 30s;
+	-webkit-filter: opacity(60%);
+	filter: opacity(60%);
+	background:#4f4f4f;
+	margin: 12px;
 }
 .home-colum:hover, .home-colum2:hover{
-	transition-duration: 1s;
+	transition-duration: .5s;
 	-webkit-filter: opacity(100%);
 	filter: opacity(100%);
 	background: #141414;
@@ -228,6 +228,11 @@ code{
 	}
 }
 @media (max-width: 800px){
+	.home-colum, .home-colum2{
+		-webkit-filter: opacity(100%);
+		filter: opacity(100%);
+		background:black;
+	}
 	.bienvenida3{
 		background-image: url(../img/640px.webp);
 		background-position: center;
@@ -886,7 +891,7 @@ a:hover{
 }
 .port{
 	height: 20px;
-	background:  #583659;
+	background: #433144;
 }
 .bienvenida{
 	background-image: url(../img/1500px.webp);
