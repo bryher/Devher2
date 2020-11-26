@@ -79,7 +79,7 @@ body{
 }
 .home-colum, .home-colum2{
 	padding: 10%;
-	transition-duration: 30s;
+	transition-duration: 60s;
 	-webkit-filter: opacity(60%);
 	filter: opacity(60%);
 	background:#4f4f4f;
@@ -173,7 +173,7 @@ body{
 }
 #menico{
 		position: absolute;
-  	left: -25px;
+  	left: -35px;
   	cursor: pointer;
 
 }
