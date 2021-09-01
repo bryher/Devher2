@@ -13,6 +13,8 @@
 	--color-a: rgba(70, 124, 175, 1);
 	--color-a-hover:rgba(0, 149, 230, 1);
 	--color-backgorund:rgba(94, 94, 94, 1);
+	--color-link:rgba(175, 70, 75, 1);
+	--color-link-hover: rgba(217, 48, 59, 1)
 }
 body{
 	background: #000;
@@ -628,11 +630,14 @@ code{
 	box-shadow: 0 13px 10px rgba(255,255,255,0.2);
 }
 .items{
-	color: #c2c2c2;
-	font-size: 1em;
-	margin: auto;
-	border: 1px solid #32546c;
+	height: 40px;
+	border: 1px solid rgba(117, 167, 215, 1);
 	padding: 5px;
+}
+
+.items:hover{
+	background: black;
+	font-size: 1.2em;
 }
 .icon-login2, #blog2{
 	display: none;
@@ -709,11 +714,8 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 	color:#00e099;
 }
 .items a{
-	color:white;
-}
-.items a:hover{
-	font-weight: bold;
-	color: white;
+	color: rgba(117, 167, 215, 1);
+	display: block;
 }
 #menu{
 	position: fixed;
@@ -791,22 +793,32 @@ a[class|="icon"]:hover, #menico:hover, #loginLook3:hover{
 a:hover{
 	color:var(--color-a-hover);
 }
-.link, .link2{
+.link{
+	margin: auto;
+	font-size: 2em;
+	color: var(--color-link);
+	padding: 5px 25px;
+	border: solid var(--color-link) 2px;
+	border-radius: 5px;
+
+}
+.link:hover{
+	background-color: black;
+	color: var(--color-link-hover);
+	font-size: 2.2em;
+	border: none;
+}
+.link2{
 	width: 70px;
 	display:block;
 	margin:auto;
 	transition: all 1s;
 	/* transform: rotate(45deg); */
 }
-.link2 img, .link img{
+.link2 img{
 	border-radius: 0;
+}
 
-}
-.link:hover{
-	transform: rotate(-45deg);
-	transition: all .5s;
-	width: 110px;
-}
 .link2:hover{
 	transition: all .5s;
 	width: 90px;
